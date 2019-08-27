@@ -1,0 +1,21 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+$titulo: 'century-gotic';
+$textos: 'Roboto';
+$rojo:  #dc3545;
+$blanco: #fff;
+$negro: #000;
+$gris-claro: #f3f3f3;
+$azul : #13294B ;
+$gis: #808184;
+
+p, span{
+    font-family: $textos;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $titulo;
+}
