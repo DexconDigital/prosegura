@@ -125,17 +125,17 @@ $texto_quienes_somos = [
 		"parrafo" => "",
 	],
 	"mision" => [
-		"titulo" => "Misión",
+		"titulo" => "<strong>Misión</strong>",
 		"parrafo" => "Ofrecer servicios integrales en materia habitacional y comercial, logrando satisfacer las necesidades de servicios inmobiliarios para nuestros clientes, enfocados hacia la protección y optimización de la rentabilidad patrimonial de los propietarios, dentro de un marco profesional, ético y jurídico, con un equipo de trabajo idóneo y competente.",
-		"imagen" => "images/mision_vision.jpg"
+		"imagen" => "img/mision_vision.jpg"
 	],
 	"vision" => [
-		"titulo" => "Visión",
+		"titulo" => "<strong>Visión</strong>",
 		"parrafo" => "Fortalecer y consolidar la empresa, ampliando la cobertura en el mercado y el portafolio de nuestros servicios. Implementar los adecuados procesos tecnológicos y administrativos. Ser reconocidos por nuestros clientes, por la transparencia, cumplimiento, seriedad y efectividad de nuestro servicio.",
 	],
 	"objetivos" => [
-		"imagen" => "images/objetivos.jpg",
-		"titulo" => "Objetivos",
+		"imagen" => "img/objetivos.jpg",
+		"titulo" => "<strong>Objetivos</strong>",
 		"parrafo" => "Con el entusiasmo de un equipo de trabajo consciente, capacitado, preparado y dispuesto a ofrecer un buen servicio, marcando una diferencia con el propósito de lograr un incremento constante de nuestra cartera, manteniendo los actuales, basados en el cumplimiento de los acuerdos contractuales, logrando con ello la satisfacción calificada de nuestros clientes internos y externos.",
 	],	
 ];
@@ -159,26 +159,26 @@ $imagenes = [
 		'alt' => 'Imagen'
 	],
 	"banner_servicios_home" => [
-		'imagen' => 'images/servicios.jpg',
+		'imagen' => 'img/servicios.jpg',
 		'alt' => 'Imagen'
 	],
 	"banner_clientes_home" => [
 		"propietarios" => [
-			'imagen' => 'images/propietarios.jpg',
+			'imagen' => 'img/propietarios.jpg',
 			'alt' => 'Imagen'
 		
 		],
 		"arrendatarios" =>[
-			'imagen' => 'images/arrendatarios.jpg',
+			'imagen' => 'img/arrendatarios.jpg',
 			'alt' => 'Imagen'
 		],
 		"pagos_pse" => [
-			'imagen' => 'images/PAGO-PSE.png',
+			'imagen' => 'img/PAGO-PSE.png',
 			'alt' => 'Imagen'
 		],
 	],
 	"banner_noticas_home" => [
-		'imagen' => 'images/banner_noticias.jpg',
+		'imagen' => 'img/banner_noticias.jpg',
 		'alt' => 'Imagen'
 	],
 	"banner_quienes_somos_frase" => [

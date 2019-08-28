@@ -13,7 +13,7 @@ body .body{
     
 }
 .espacio_menu{
-    margin-right: 27px;
+    margin-right: 8px;
 }
 body.h1{
    font-display: CENTURY GOTHIC;
@@ -51,6 +51,11 @@ body.p{
     position: relative;
     text-transform: uppercase;
     top: 295px;
+    
+}
+.color_azul{
+    background-color: #13294B;
+    color: white;
 }
 .main-title2::before{
     content: '';
@@ -82,7 +87,7 @@ body.p{
     font-weight: 700;
     z-index: 1;
     text-transform: uppercase;
-    background-color: #000;
+    background-color: #13294B;
 }
 .property a{
     transition: 0.2s;
@@ -118,6 +123,11 @@ figure{
     overflow: hidden;
     position: relative;
     width: 100%;
+  }
+  .color_gris{
+  
+    background-color: #808184;
+    color: white;
   }
   .property:hover img, .property:active img, .property:focus img {
     -moz-backface-visibility: hidden;
@@ -179,7 +189,7 @@ figure{
     font-weight: lighter;
   }
   .property .overlay .additional-info {
-    background-color: black;
+    background-color: #13294B;
     display: table;
     height: 30px;
     list-style: none;
@@ -292,9 +302,13 @@ figure{
     display: inline-block;
     padding: 3px 8px;
 }
+.li_servicios{
+    color: #13294B;
+    margin-bottom: 20px;
+}
 
 #parallax{
-    background-image: url('../img/banner_slogan.jpg');
+    background-image: url('../img/banner_frase.jpg');
     background-attachment: fixed;
     height: 700px;
     margin: 0px;
@@ -328,13 +342,16 @@ figure{
 .li_foot{
     margin-bottom: 15px;
 }
+.color_black{
+    color: #13294B;
+}
 
 .tit_foot2{
     font-weight: 700;
     text-transform: capitalize;
     font-size: 18px;
     margin-bottom: 17px;
-    margin: 33px 0px 30px 2px;
+    margin: 33px 0px 19px 2px;
     line-height: 1.4;
 }
 
@@ -477,8 +494,8 @@ figure{
     margin-top: 43px;
 }
 .pricing{
-    border: 1px solid #dad9d9;
-    padding: 50px 0px;
+    
+    padding: 50px -1px;
     position: relative;
     transition: all 400ms ease-in-out;
 }
@@ -539,7 +556,7 @@ figure{
     padding: 18px 20px 20px 20px;
 }
 .sidebar-title{
-    background-color: #dc3545;
+    background-color: #13294B;
     margin: 0px;
     color: #ffffff;
     font-size: 20px;
@@ -588,7 +605,7 @@ figure{
 }
 .sidebar-title{
     padding: 18px 20px 20px 20px;
-    background-color: #dc3545;
+    background-color: #13294B;
     margin: 0px;
     color: #ffffff;
     font-size: 20px;
@@ -616,7 +633,7 @@ figure{
 .daily-email{
     padding: 14px 15px 18px 9px;
     color: #ffffff;
-    background-color: #dc3545;
+    background-color: #13294b;
     margin-bottom: 9px;
 }
 .daily-email h4{
@@ -667,14 +684,28 @@ figure{
     border: 1px solid #9d9a9b;
     width: 100%;
 }
+.politicas_contac{
+    color: #13294B;
+}
+.espacio_contac{
+    margin-bottom: 4%;
+}
 #estilo_button_contacto{
     color: #ffffff;
-    background-color: #dc3545;
+    background-color: #13294B;
     padding: 7px 0px 9px;
     border: 0px;
     height: auto;
     width: 25%;
 
+}
+.estilo_button_contacto{
+    color: #ffffff;
+    background-color: #13294B;
+    padding: 7px 0px 9px;
+    border: 0px;
+    height: auto;
+    width: 25%;
 }
 #supscrp_foot{
     padding: 10px;
@@ -729,12 +760,12 @@ figure{
     
     }
     a:hover{
-        color: #dc3545;
+        color: #808184;
 }
 #estilo_icono_foot2{
     font-size: 51px;
     padding: 0px;
-    color: #dc3545;
+    color: #808184;
 }
 #parallax2{
     
@@ -765,9 +796,10 @@ figure{
 }
 .icon{
     margin-top: 5px;
+    color: #13294B
 }
 #parallax4{
-    background-image: url('../img/banner_noticias.png');
+    background-image: url('../img/banner_noticias.jpg');
     background-attachment: fixed;
     height: 700px;
     margin: 0px;

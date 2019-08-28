@@ -50,33 +50,33 @@
 <nav id="medida_nav" class="navbar navbar-expand-xl navbar-light bg-light">
   <div class=" row col-lg-4 col-md-4 col-8">
     <a href="index.php">
-      <img style=" object-fit: contain;width: 100%;" src="<?php echo $logo_empresa ['src']; ?>" alt="" height="70px">
+      <img style=" object-fit: contain;width: 100%;" src="<?php echo $logo_empresa['src']; ?>" alt="" height="70px">
     </a>
   </div>
 
-  <button  class="navbar-toggler boton_nogg" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler boton_nogg" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item espacio_menu <?php if ($page == 'Inicio') {
-                            echo 'active';
-                          } ?>">
+                                          echo 'active';
+                                        } ?>">
         <a class="nav-link" href="index.php"> Inicio </a>
       </li>
       <li class="nav-item espacio_menu <?php if ($page == 'Quienes') {
-                            echo 'active';
-                          } ?>">
+                                          echo 'active';
+                                        } ?>">
         <a class="nav-link" href="quienes_somos.php">Quiénes Somos</a>
       </li>
       <li class="nav-item espacio_menu <?php if ($page == 'Servicios') {
-                            echo 'active';
-                          } ?>">
+                                          echo 'active';
+                                        } ?>">
         <a class="nav-link" href="servicios.php"> Servicios</a>
       </li>
       <li class="nav-item espacio_menu <?php if ($page == 'Inmuebles') {
-                            echo 'active';
-                          } ?> ">
+                                          echo 'active';
+                                        } ?> ">
         <a class="nav-link" href="inmueble.php"> Inmuebles</a>
       </li>
       <li class="nav-item espacio_menu dropdown">
@@ -84,17 +84,21 @@
           Clientes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Arrendatarios</a>
-          <a class="dropdown-item" href="#">Propietarios</a>
+          <a class="dropdown-item" target="_blank" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=2 ">Arrendatarios</a>
+          <a class="dropdown-item" target="_blank" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=1  ">Propietarios</a>
       </li>
       <li class="nav-item espacio_menu <?php if ($page == 'Noticias') {
-                            echo 'active';
-                          } ?>">
-        <a class="nav-link" href="noticias.php">Noticias</a>
+                                          echo 'active';
+                                        } ?>">
+        <a class="nav-link" href="">Noticias</a>
       </li>
+      <li class="nav-item espacio_menu">
+        <a class="nav-link" href="" data-toggle="modal" data-target="#consigna">Consignar Inmueble</a>
+      </li>
+
       <li class="nav-item espacio_menu <?php if ($page == 'Contacto') {
-                            echo 'active';
-                          } ?>">
+                                          echo 'active';
+                                        } ?>">
         <a class="nav-link" href="contactos.php">Contáctanos</a>
       </li>
     </ul>

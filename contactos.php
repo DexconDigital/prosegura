@@ -78,9 +78,10 @@ $page = 'Contacto' ?>
                 <div class="col-md-2 ">
                 </div>
                 <div class="col-md-9 col-12">
+                
                   <div class="container">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Confimo que he leído, entendido y acepto la política de tratamiento de datos personales.</label>
+                    <label class="form-check-label" for="exampleCheck1">Confimo que he leído, entendido y acepto la <a class="politicas_contac" href="">política de tratamiento de datos personales.</a></label>
                   </div>
 
                 </div>
@@ -98,14 +99,9 @@ $page = 'Contacto' ?>
           <div class="row">
             <div class="col-12 p-0">
               <div class="contenedor-mapa_contacto">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.387477550989!2d-74.04512468555325!3d4.702562842951571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab269c06361%3A0xdca8e05035cfdad4!2sAk.+15+%23124-17%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1565293824670!5m2!1ses-419!2sco" width="" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.716021290003!2d-74.07164198555337!3d4.644658043435028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a365d3e3b6f%3A0x6db27910fb7175ad!2sCl.%2057%20%2318-22%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1566996675146!5m2!1ses-419!2sco" height="600" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>    
                 <div class="contenedor-overlay">
-                  <div class="card" style="width=18rem;">
-                    <h3 id="titulo_not" class="text-center">Horario de atención </h3>
-                    <div class="card-body">
-                      <p class="card-text"></p>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -118,7 +114,7 @@ $page = 'Contacto' ?>
               <div class=" col-lg-12 col-md-12 col-sm-12 col-12 p-4 mt-4  ">
                 <h2 class="main-title text-center"> Datos de Contacto</h2>
               </div>
-              <div class="col-lg-12 col-md.12 col-12  row justify-content-center ">
+              <div class="col-lg-12 col-md.12 col-12  row justify-content-center espacio_contac">
                 <div class="col-lg-4 col-md-4 col-12 text-center ">
                 <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
@@ -127,32 +123,32 @@ $page = 'Contacto' ?>
                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 text-center  ">
+                <div class="col-lg-4 col-md-4 col-12 text-center espacio_contac  ">
                   <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
                       <div class="col-auto col-md-12 "> <i class="fas fa-phone-alt mr-2 icon"></i></div>
                       <div class="col-7 col-md-12">
-                        <a style="color:black;" href="tel:<?php echo $datos_contacto['telefono_fijo_1']['link'] ?>"><?php echo $datos_contacto['telefono_fijo_1']['imprimir'] ?></a>
+                        <a style="color:black;" href="tel:<?php echo $datos_contacto['telefono_fijo']['link'] ?>"><?php echo $datos_contacto['telefono_fijo']['imprimir'] ?></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 text-center ">
+                <div class="col-lg-4 col-md-4 col-12 text-center espacio_contac ">
                   <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
-                      <div class="col-auto col-md-12 "> <i class="fas fa-phone-alt mr-2 icon"></i></div>
+                      <div class="col-auto col-md-12 "> <i class="fas fa-mobile-alt mr-2 icon"></i></div>
                       <div class="col-7 col-md-12">
-                        <a style="color:black;"  href="tel:<?php echo $datos_contacto['telefono_fijo_2']['link'] ?>"><?php echo $datos_contacto['telefono_fijo_2']['imprimir'] ?></a>
+                        <a style="color:black;"  href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><?php echo $datos_contacto['celular']['imprimir'] ?></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 text-center ">
+                <div class="col-lg-4 col-md-4 col-12 text-center">
                   <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
-                      <div class="col-auto col-md-12 "> <i class="fas fa-phone-alt mr-2 icon"></i></div>
+                      <div class="col-auto col-md-12 "> <i class="fas fa-mobile-alt mr-2 icon"></i></div>
                       <div class="col-7 col-md-12">
-                        <a style="color:black;"  href="tel:<?php echo $datos_contacto['telefono_fijo_3']['link'] ?>"><?php echo $datos_contacto['telefono_fijo_3']['imprimir'] ?></a>
+                        <a style="color:black;"  href="tel:<?php echo $datos_contacto['celular2']['link'] ?>"><?php echo $datos_contacto['celular2']['imprimir'] ?></a>
                       </div>
                     </div>
                   </div>
@@ -167,16 +163,7 @@ $page = 'Contacto' ?>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12  text-center ">
-                  <div class="col-12 card  style_info" style="">
-                    <div class=" row card-body ">
-                      <div class="col-auto col-md-12 "><i class="fas fa-mobile-alt mr-2 icon"></i></div>
-                      <div class="col-5 col-md-12">
-                        <a style="color:black;"  href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><?php echo $datos_contacto['celular']['imprimir'] ?></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
                 <div class="col-lg-4 col-md-4 col-12  text-center ">
                   <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
@@ -192,24 +179,7 @@ $page = 'Contacto' ?>
             </div>
           </div>
         </section>
-        <div id="enviar_contactos" style="" class="mt-4 ">
-          <div class="container  ">
-            <div class="row ">
-              <div class="col-lg-6 col-md-6 col-12 ">
-                <p class="tit_foot2 text-white text-center">Suscríbete a nuestro boletín</p>
-              </div>
-              <div class=" col-12 col-lg-6 col-md-6  align-items-center justify-content-center ">
-
-                <div class="col-md-9 form-group col-12 ">
-                  <input type="email" class="col-md-12 " placeholder="ejemplo@dominio.com" id="supscrp_foot">
-                </div>
-                <div class=" col-md-9 col-12 form-group">
-                  <button style="padding: 4px;" type="button" class="btn btn-dark rounded-0 col-md-12 col-12" name=""><span>Enviar</span></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
 
