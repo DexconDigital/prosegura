@@ -83,7 +83,7 @@
                   <input type="Telefono" placeholder="Telefono" name="telefono" class="form-control" requiered="">
                 </div>
                 <div class="form-group col-12">
-                  <select class="form-control" name="transaccion" requiered="">
+                  <select class="form-control select_color" name="transaccion" requiered="">
                     <option selected="" disabled="">Tipo de Transaccion</option>
                     <option value="arriendo">Arriendo</option>
                     <option value="arriendo/venta">Arriendo/venta</option>
@@ -92,7 +92,7 @@
                   </select>
                 </div>
                 <div class="form-group col-12">
-                  <select class="form-control" id="tipo_inm" name="tipo_inm" requiered="">
+                  <select class="form-control select_color" id="tipo_inm" name="tipo_inm" requiered="">
                     <option selected="" disabled="">Tipo de Inmueble</option>
                     <option value="Apartamento">Apartamento</option>
                     <option value="Casa">Casa</option>

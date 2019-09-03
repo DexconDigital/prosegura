@@ -37,29 +37,28 @@ $page = 'Inmuebles' ?>
                         </div>
                     </div>
                     <div>
-                        <div class="col-md-12 col-12 col-lg-12">
-
+                    <div class="col-md-12 col-12 col-lg-12">
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
+                                <div id="container_tamaño_img" class="carousel-inner tamaño_cont_carrousel ">
                                     <?php
                                     if (!isset($r['fotos']) || count($r['fotos']) == 0) {
                                         echo 'div  class="carousel-item ">
-                                            <img style="    object-fit: contain;
-                                            width: 50%;
+                                            <img style="    object-fit: cover;
+                                            width: 100%;
                                             " src="images/no_image.png" class="" alt="...">
                                             </div>
                                         ';
                                     } else {
-                                        echo '<div  class="carousel-ite active">
-                                            <img style="    object-fit: contain;
-                                            width: 50%;
+                                        echo '<div  class="carousel-item active">
+                                            <img style="    object-fit: cover;
+                                            width: 100%;
                                             " src="' . $r['fotos'][0]['foto'] . '" class="" alt="...">
                                             </div>
                                             ';
                                         for ($i = 1; $i < count($r['fotos']); $i++) {
                                             echo '<div  class="carousel-item">
-                                            <img style="    object-fit: contain;
-                                            width: 50%;
+                                            <img style="    object-fit: cover;
+                                            width: 100%;
                                             " src="' . $r['fotos'][$i]['foto'] . '" class="" alt="...">
                                             </div>
                                             ';
@@ -79,10 +78,12 @@ $page = 'Inmuebles' ?>
 
 
 
+
                         </div>
+
                         <div class="col-md-12 row  ">
                             <div class="col-md-6 col-lg-6 col-12 contenerdor_booton_conta">
-                                <button style="margin-top: 18px;" type="button" class="btn color_azul rounded-0 col-6 compartir_boton" name=""><a></a><span class="letra_booton">Imprimir ficha</span></button>
+                            <button style="margin-top: 18px;" type="button" class="btn color_azul rounded-0 col-6 compartir_boton" name=""><a class="color_blanco_url" href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=805-<?php echo $co ?>" target="_blank">Imprimir ficha</a></button>
                             </div>
                             <div class="col-md-4 col-lg-4 col-6 col-sm-1 mr-2 icon_foot row">
                                 <h5 class="compartir">Compartir por :</h5>
@@ -112,11 +113,50 @@ $page = 'Inmuebles' ?>
                             }
                             ?>
                         </div>
-                        <div class="col-md-12">
-                            <h4 class="property-single-detail-title"><strong>Caracteristicas Externas</strong></h4>
+                        <div class="col-md-12" style="margin-bottom: 12px;;">
+                            <?php
+                            if (count($r['caracteristicasExternas']) > 0) {
+                                echo '
+                                            <h4 class="property-single-detail-title"><strong>Caracteristicas Externas</strong></h4>
+                                            <ul">';
+                                for ($i = 0; $i < count($r['caracteristicasExternas']); $i++) {
+                                    $caracteristicas = ltrim($r['caracteristicasExternas'][$i]['Descripcion']);
+                                    echo '<li>' . $caracteristicas . '</li>';
+                                }
+                                echo  '</ul>';
+                            }
+                            ?>
                         </div>
-                        <div class="col-12">
-                            <!-- videos -->
+                        <div class="col-md-12" style="margin-bottom: 12px;;">
+                            <?php
+                            if (count($r['caracteristicasAlrededores']) > 0) {
+                                echo '
+                                            <h4 class="property-single-detail-title"><strong>Caracteristicas Alrededores</strong></h4>
+                                            <ul">';
+                                for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
+                                    $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
+                                    echo '<li>' . $caracteristicas . '</li>';
+                                }
+                                echo  '</ul>';
+                            }
+                            ?>
+                        </div>
+                        <div class="col-12  mb-3">
+                            <?php if ($r['video'] != "") {
+                                echo
+                                    '<div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Video</h5>
+                                    <div class="row">
+                                        <div class="col-12 col-md-4">
+                                        <iframe src="' . $r['video'] . '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                ';
+                            } ?>
+
                         </div>
                         <div class="col-md-12  p-0">
                             <div class="row">
@@ -158,12 +198,12 @@ $page = 'Inmuebles' ?>
                         <h6 class="sidebar-title text-center">Contacto con el asesor</h6>
                         <div class="side-bar-agent-detail mt-3">
                             <figure>
-                                <img id="img_inmueble" src="img/no_image.png" alt="">
+                                <img id="img_inmueble" src="<?php echo $asesor['FotoAsesor']; ?>" alt="">
                             </figure>
                             <ul class="side-bar-agent">
-                                <li><i class="fa fa-map-marker"></i> Nombre</li>
-                                <li><i class="fa fa-phone"></i> Teléfono</li>
-                                <li><a><i class="fa fa-envelope"></i> Correo</a></li>
+                                <li><?php echo $asesor['ntercero']; ?></li>
+                                <li><i class="fa fa-phone pr-1"></i><a href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></li>
+                                <li><a><i class="fa fa-envelope pr-1"></i><?php echo $asesor['correo']; ?></a></li>
                             </ul>
                         </div>
 

@@ -4,7 +4,7 @@ function modelo_inmueble($r, $cantidad_inmuebles)
 {
   for ($i = 0; $i < $cantidad_inmuebles; $i++) {
     $imagen = existeImagen(($r[$i]['foto1']));
-    $codigo = str_ireplace("60-", "", $r[$i]['Codigo_Inmueble']);
+    $codigo = str_ireplace("805-", "", $r[$i]['Codigo_Inmueble']);
     $api = $r[$i];
 
     echo '
@@ -72,10 +72,10 @@ function modelo_inmueble2($r)
 {
   for ($i = 0; $i < count($r); $i++) {
     $imagen = existeImagen(($r[$i]['foto1']));
-    $codigo = str_ireplace("60-", "", $r[$i]['Codigo_Inmueble']);
+    $codigo = str_ireplace("805-", "", $r[$i]['Codigo_Inmueble']);
     $api = $r[$i];
     $descripcion = $api['descripcionlarga'];
-    $limite_de_cadena = 150;
+    $limite_de_cadena = 10;
     // recortar cadena
     if (strlen($descripcion) <= $limite_de_cadena) {
       $descripcion = substr($descripcion, 0, $limite_de_cadena) . '...';
@@ -138,7 +138,7 @@ function modelo_inmueble_similares($r, $cantidad_inmuebles)
 
   for ($i = 0; $i < $cantidad_inmuebles; $i++) {
     $imagen = existeImagen(($r[$i]['foto1']));
-    $codigo = str_ireplace("60-", "", $r[$i]['Codigo_Inmueble']);
+    $codigo = str_ireplace("805-", "", $r[$i]['Codigo_Inmueble']);
     $api = $r[$i];
 
     echo '

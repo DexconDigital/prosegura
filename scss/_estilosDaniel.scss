@@ -57,6 +57,10 @@ body.p{
     background-color: #13294B;
     color: white;
 }
+.color_azul:hover{
+    background-color: #13294B;
+    color: white;
+}
 .main-title2::before{
     content: '';
     position: absolute;
@@ -124,6 +128,9 @@ figure{
     position: relative;
     width: 100%;
   }
+  .contenedor_img_zona{
+    height: 284px;
+}
   .color_gris{
   
     background-color: #808184;
@@ -344,6 +351,12 @@ figure{
 }
 .color_black{
     color: #13294B;
+}
+.color_zona_cliente{
+    color: #000;
+}
+#container_tamaño_img{
+    height: 510px;
 }
 
 .tit_foot2{
@@ -824,7 +837,10 @@ figure{
     top:0;
     left:10%;
 }
-
+.select_color:focus{
+    border-color: #13294B;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #13294B !important;
+}
 
 
 
@@ -926,6 +942,11 @@ figure{
         margin-top: -64px;
         margin-left: 29px;
     }
+    .color_blanco_url{
+        font-size: 13px;
+    color: white;
+    }
+    
 }
  @media (min-width: 576px) { 
     // funcionar cuando la pantalla sea igual o mayor a mil pixeles
@@ -1012,6 +1033,20 @@ figure{
     .tipo_inm{
         font-size: 24px;
     }
+    .property .precio{
+        position: absolute;
+    top: 33px;
+    left: -102px;
+    color: #ffffff;
+    padding: 1px 60px;
+    transform: rotate(-42deg);
+    font-size: 12px;
+    font-weight: 700;
+    z-index: 1;
+    text-transform: uppercase;
+    background-color: #13294B;
+    }
+    
     
  }
 
@@ -1082,6 +1117,19 @@ figure{
         float: right;
         
     }
+    .property .precio{
+        position: absolute;
+    top: 33px;
+    left: -112px;
+    color: #ffffff;
+    padding: 1px 60px;
+    transform: rotate(-42deg);
+    font-size: 12px;
+    font-weight: 700;
+    z-index: 1;
+    text-transform: uppercase;
+    background-color: #13294B;
+    }
     
  }
 
@@ -1144,4 +1192,26 @@ figure{
         float: left;
         margin-left: -3%;
     }
+    .color_blanco_url{
+        font-size: 13px;
+    color: white;
+    }
+    .color_blanco_url:hover{
+        color: white;
+    }
+    .property .precio{
+        position: absolute;
+    top: 33px;
+    left: -70px;
+    color: #ffffff;
+    padding: 1px 60px;
+    transform: rotate(-42deg);
+    font-size: 12px;
+    font-weight: 700;
+    z-index: 1;
+    text-transform: uppercase;
+    background-color: #13294B;
+    }
+    
+   
  }

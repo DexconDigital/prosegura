@@ -26,8 +26,14 @@ function inmuebles_destacados($r)
 }
 
 function cantidad_inmuebles_imprimir($r){
-    $cantidad_inmuebles = count($r)-1;
-    echo '<script>var cantidad_inmuebles = '.$cantidad_inmuebles.'</script>';
-}
+
+    if(is_array($r)){
+        $cantidad_inmuebles = count($r)-1;
+        echo '<script>var cantidad_inmuebles = '.$cantidad_inmuebles.'</script>';
+    }else {
+        echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+    }
+   
+} 
 
 cantidad_inmuebles_imprimir($api);
