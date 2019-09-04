@@ -6,7 +6,7 @@ setTimeout(() => {
     var fecha = new Date();
     var ano = fecha.getFullYear();
    //  Colocar el año de creacion de la empresa
-    const CREATECOMPANY = ;
+    const CREATECOMPANY = 1989;
     var total = ano - CREATECOMPANY;
    //  Se busca la clase counter-expence para colocarel valor de los años
     $('.counter-experence').append(total);
@@ -25,7 +25,12 @@ setTimeout(() => {
            success:function(response)
            {
               //  Se busca la clase counter-propertys para colocarel valor de los inmuebles totales
-              $('.counter-propertys').append(response.datosGrales.totalInmuebles);
+              if(response != 'Sin resultados'){
+               $('.counter-propertys').append(response.datosGrales.totalInmuebles);
+            }else{
+               $('.counter-sale-rent').append('0');
+            }
+              
            }
                        
        });
@@ -42,7 +47,13 @@ setTimeout(() => {
            success:function(response)
            {
               //  Se busca la clase counter-rent para colocarel valor de los inmuebles en arriendo 
-              $('.counter-rent').append(response.datosGrales.totalInmuebles);
+              if(response != 'Sin resultados'){
+               $('.counter-rent').append(response.datosGrales.totalInmuebles);
+            }else{
+               $('.counter-sale-rent').append('0');
+            }
+            
+             
            }
                        
        });
@@ -60,7 +71,12 @@ setTimeout(() => {
            success:function(response)
            {
               //  Se busca la clase counter-rent para colocarel valor de los inmuebles en venta
-              $('.counter-sale').append(response.datosGrales.totalInmuebles);
+              if(response != 'Sin resultados'){
+               $('.counter-sale').append(response.datosGrales.totalInmuebles);
+            }else{
+               $('.counter-sale-rent').append('0');
+            }
+              
            }
                        
        });
@@ -80,7 +96,11 @@ setTimeout(() => {
            {
               
             //  Se busca la clase counter-sale-rent para colocarel valor de los inmuebles en venta
-              $('.counter-sale-rent').append(response.datosGrales.totalInmuebles);
+            if(response != 'Sin resultados'){
+               $('.counter-sale-rent').append(response.datosGrales.totalInmuebles);
+            }else{
+               $('.counter-sale-rent').append('0');
+            }
            }
                        
        });

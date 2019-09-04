@@ -118,15 +118,3 @@
   altomenu = altomenu + 'px';
   var espacio_menu = document.getElementById('espacio-menu').style.height = altomenu;
 </script>
-
-<script>
-let ubicacionPrincipal = window.pageYOffset;
-window.onscroll = function(){
-    let Desplazamiento = window.pageYOffset;
-    if(ubicacionPrincipal >= Desplazamiento ){
-        document.getElementById('medida_nav').style.top = '0';
-    }else{
-        document.getElementById('medida_nav').style.top = '-100px';
-    }
-    ubicacionPrincipal = Desplazamiento;
-}</script>

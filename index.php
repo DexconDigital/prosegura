@@ -76,27 +76,30 @@ $page = 'Inicio' ?>
         </div>
         <div class="col-md-12 col-12 col-lg-12  justify-content-center">
           <div class="owl-carousel owl-theme" id="owl_propiedades_destacadas">
-            <?php inmuebles_destacados($api);  ?>
+            <?php 
+              if(!is_array($api)){
+                inmuebles_destacados($api);
+              }else{
+                echo '<h2 class="text-center" >No tiene Inmuebles Destacados22</h2>';
+              }
+                ?>
           </div>
         </div>
       </div>
     </section>
 
     <section id="" class="separador-p bg-gris">
-      <div class="container border border-secondary">
-        <div class="row border border-secondary">
+      <div class="container ">
+        <div class="row ">
           <div class="">
-            <div class=" extra-info separador col-lg-12 col-md-12 col-sm-12 border border-secondary">
+            <div class=" extra-info separador col-lg-12 col-md-12 col-sm-12 ">
               <figure id="targeta" class="">
                 <img id="card_img" src="img/quienes_somos.jpg">
               </figure>
             </div>
             <div id="cuadro_cards" class="extra-info-text margin-control col-lg-12 col-md-12 col-sm-12 ">
               <h3> Propiedad Segura Inmobiliaria PROSEGURA</h3>
-              <p> Somos una Empresa con más de 30 años de
-                experiencia en el sector Inmobiliario, arrendando y vendiendo en Bogotá, nos caracterizamos por la
-                honestidad y cumplimiento en nuestras actividades y por prestar de manera personalizada y cordial
-                un servicio profesional a nuestros clientes.</p>
+              <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
               <a href="quienes_somos.php" class="btn rounded-0 color_azul">Ver más</a>
             </div>
           </div>
@@ -124,42 +127,6 @@ $page = 'Inicio' ?>
       </div>
     </section>
 
-    <section id="asesores" class="container mt-4">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-12 p-4  ">
-          <h2 class="main-title text-center"> Nuestros Asesores</h2>
-        </div>
-        <div class="col-12">
-          <p class="text-center"> Nadie conoce nuestras ciudades tan bien como nosotros</p>
-        </div>
-        <div class="col-12 d-flex justify-content-center">
-          <div class="col-12 col-md-6 col-lg-4  ">
-            <div class="card" style="">
-              <div class="property">
-                <a href="">
-                  <div class="property-image">
-                    <img alt="" src="img/no_image.png"></div>
-                </a>
-              </div>
-              <div class=" row col-12 p-4">
-                <div class="col-12">
-                  <p class="mb-1">Nombre:</p>
-                </div>
-                <div class="col-12">
-                  <p class="mb-1">Apellido:</p>
-                </div>
-                <div class="col-12">
-                  <p class="mb-1">Celular:</p>
-                </div>
-                <div class="col-12">
-                  <p class="mb-1">Correo:</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
     <section class="bg-gris">
       <div class="row justify-content-around">
         <div class="col-12 p-4  ">
@@ -170,25 +137,25 @@ $page = 'Inicio' ?>
         </div>
 
         <div class="container mt-5 ">
-        <div class="card-deck">
+          <div class="card-deck">
             <div class="card contenedor_img_zona" id="cad">
-              <a href="" target="_blank">
+              <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=1" target="_blank">
                 <?php $r = $imagenes['banner_clientes_home']['propietarios'];
                 echo '
                <img  src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
               </a>
               <div>
-                <h3 class="text-center"><a class=" color_zona_cliente " href="" target="_blank">Propietarios</a></h3>
+                <h3 class="text-center"><a class=" color_zona_cliente " href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=1" target="_blank">Propietarios</a></h3>
               </div>
             </div>
 
             <div class="card contenedor_img_zona" id="cad">
-              <a href="" target="_blank">
+              <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=2" target="_blank">
                 <?php $r = $imagenes['banner_clientes_home']['arrendatarios'];
                 echo '
                <img src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
               </a>
-              <h3 class="text-center"> <a class=" color_zona_cliente " target="_blank" href="">Arrendatarios</a></h3>
+              <h3 class="text-center"> <a class=" color_zona_cliente " target="_blank" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=2">Arrendatarios</a></h3>
             </div>
 
             <div class="card contenedor_img_zona" id="cad">

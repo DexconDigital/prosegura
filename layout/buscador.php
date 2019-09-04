@@ -37,7 +37,7 @@
                         <input type="text" id='precio_maximo_buscar' class="form-control rounded-0 select_color"placeholder="Precio Máximo">
                 </div>
                 <div class="col-lg-6  col-md-12 form-group">
-                    <button type="button" class="btn btn-lg btn-block rounded-0 color_boton">Buscar</button>
+                    <button type="button" id="buscar" class="btn btn-lg btn-block rounded-0 color_boton">Buscar</button>
                 </div>
         </form>
     </div>

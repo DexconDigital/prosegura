@@ -80,11 +80,11 @@
                   <input type="mail" placeholder="Correo" name="email" class="form-control" required="">
                 </div>
                 <div class="form-group col-12">
-                  <input type="Telefono" placeholder="Telefono" name="telefono" class="form-control" requiered="">
+                  <input type="Telefono" placeholder="Teléfono" name="telefono" class="form-control" requiered="">
                 </div>
                 <div class="form-group col-12">
                   <select class="form-control select_color" name="transaccion" requiered="">
-                    <option selected="" disabled="">Tipo de Transaccion</option>
+                    <option selected="" disabled="">Tipo de Transacción</option>
                     <option value="arriendo">Arriendo</option>
                     <option value="arriendo/venta">Arriendo/venta</option>
                     <option value="venta">Venta</option>

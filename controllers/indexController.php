@@ -19,10 +19,7 @@ function inmuebles_destacados($r)
 {
     if (is_array($r)) {
             $cantidad_inmuebles= count($r)-1;
-            modelo_inmueble($r, $cantidad_inmuebles);
-    } else {
-        echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
-    }
+            modelo_inmueble($r, $cantidad_inmuebles);        }
 }
 
 function cantidad_inmuebles_imprimir($r){
@@ -30,10 +27,9 @@ function cantidad_inmuebles_imprimir($r){
     if(is_array($r)){
         $cantidad_inmuebles = count($r)-1;
         echo '<script>var cantidad_inmuebles = '.$cantidad_inmuebles.'</script>';
-    }else {
-        echo '<h2 class="text-center" >No tiene Inmuebles Destacados</h2>';
+    }else{
+        echo '<script>var cantidad_inmuebles = 0</script>';
     }
-   
 } 
 
 cantidad_inmuebles_imprimir($api);

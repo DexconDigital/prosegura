@@ -89,8 +89,9 @@ $page = 'Inmuebles' ?>
                                 <h5 class="compartir">Compartir por :</h5>
                             </div>
                             <div class="col-md-2 row  d-flex flex-row-reverse bd-highlight container_icon_compartir">
+                            <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot  p-2 row"><a class="color_whapp" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
                                 <div class="col-md-5 col-2 col-sm-1 mr-2 icon_foot  p-2 row"><a href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww..com.co%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank"><i class="fab fa-twitter "></i></a></div>
-                                <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot  p-2 row"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww..com.co%2Fdetalle_inmueble.php%3Fco%3D<?php echo $co; ?>" target="_blank"><i class="fab fa-facebook-f "></i></a></div>
+                                <div class="col-md-5 col-2 col-sm-1 mr-1 icon_foot  p-2 row"><a class="color_face "href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww..com.co%2Fdetalle_inmueble.php%3Fco%3D<?php echo $co; ?>" target="_blank"><i class="fab fa-facebook-f "></i></a></div>
                             </div>
 
                         </div>
@@ -99,11 +100,29 @@ $page = 'Inmuebles' ?>
                             <h4 class="property-single-detail-title"><strong>Descripción</strong></h4>
                             <p style="text-align: justify;"><?php echo $r['descripcionlarga']; ?></p>
                         </div>
+                        <!-- descripcion -->
+                        <div class="col-md-12" style="margin-bottom: 12px;">
+                            <h4 class="property-single-detail-title"><strong>Características</strong></h4>
+                            <ul class="pl-4">
+                                <li>Código: <?php echo $co; ?></li>
+                                <li>Alcobas: <?php echo $alcobas; ?></li>
+                                <li>Baños: <?php echo $banios; ?></li>
+                                <li>Área Construida: <?php echo $area_construida; ?>m<sup>2<sup></li>
+                                <li>Área Privada: <?php echo $area_privada; ?>m<sup>2<sup></li>
+                                <li>Garaje: <?php echo $garaje; ?></li>
+                                <li>Estrato: <?php echo $estrato; ?></li>
+                                <li>Edad Inmueble: <?php echo $edad_inmueble; ?> años</li>
+                                <?php if ($administracion != "") {
+                                    echo '<li>Administración: $' . $administracion . '</li>';
+                                } ?>
+                            </ul>
+                        </div>
+                        <!-- fin de descripcion -->
                         <div class="col-md-12" style="margin-bottom: 12px;;">
                             <?php
                             if (count($r['caracteristicasInternas']) > 0) {
                                 echo '
-                                            <h4 class="property-single-detail-title"><strong>Caracteristicas Internas</strong></h4>
+                                            <h4 class="property-single-detail-title"><strong>Características Internas</strong></h4>
                                             <ul">';
                                 for ($i = 0; $i < count($r['caracteristicasInternas']); $i++) {
                                     $caracteristicas = ltrim($r['caracteristicasInternas'][$i]['Descripcion']);
@@ -113,11 +132,12 @@ $page = 'Inmuebles' ?>
                             }
                             ?>
                         </div>
+                        
                         <div class="col-md-12" style="margin-bottom: 12px;;">
                             <?php
                             if (count($r['caracteristicasExternas']) > 0) {
                                 echo '
-                                            <h4 class="property-single-detail-title"><strong>Caracteristicas Externas</strong></h4>
+                                            <h4 class="property-single-detail-title"><strong>Características Externas</strong></h4>
                                             <ul">';
                                 for ($i = 0; $i < count($r['caracteristicasExternas']); $i++) {
                                     $caracteristicas = ltrim($r['caracteristicasExternas'][$i]['Descripcion']);
@@ -131,7 +151,7 @@ $page = 'Inmuebles' ?>
                             <?php
                             if (count($r['caracteristicasAlrededores']) > 0) {
                                 echo '
-                                            <h4 class="property-single-detail-title"><strong>Caracteristicas Alrededores</strong></h4>
+                                            <h4 class="property-single-detail-title"><strong>Características Alrededores</strong></h4>
                                             <ul">';
                                 for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
                                     $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
@@ -141,6 +161,7 @@ $page = 'Inmuebles' ?>
                             }
                             ?>
                         </div>
+
                         <div class="col-12  mb-3">
                             <?php if ($r['video'] != "") {
                                 echo
@@ -158,6 +179,7 @@ $page = 'Inmuebles' ?>
                             } ?>
 
                         </div>
+                        <!-- Mapa
                         <div class="col-md-12  p-0">
                             <div class="row">
                                 <div style="width: 100%;">
@@ -167,7 +189,7 @@ $page = 'Inmuebles' ?>
                             </div>
 
                         </div>
-
+                                -->
                     </div>
                 </div>
 
@@ -189,22 +211,24 @@ $page = 'Inmuebles' ?>
                             <select id="tipo_gestion_buscar" class="form-control rounded-0">
                                 <option selected>Tipo de gestión</option>
                             </select>
-                            <input type="text" id='area_minima_buscar' class="form-control rounded-0" placeholder="Area Mínima">
-                            <input type="text" id='area_maxima_buscar' class="form-control rounded-0" placeholder="Area Máxima">
+                            <input type="text" id='area_minima_buscar' class="form-control rounded-0" placeholder="Área Mínima">
+                            <input type="text" id='area_maxima_buscar' class="form-control rounded-0" placeholder="Área Máxima">
                             <button type="submit" style="background-color: gray;" class="btn  rounded-0 col-12">Buscar</button>
                         </form>
                     </div>
                     <div class="col-md-12">
                         <h6 class="sidebar-title text-center">Contacto con el asesor</h6>
-                        <div class="side-bar-agent-detail mt-3">
+                        <div class="side-bar-agent-detail mt-3 mb-3">
                             <figure>
                                 <img id="img_inmueble" src="<?php echo $asesor['FotoAsesor']; ?>" alt="">
                             </figure>
-                            <ul class="side-bar-agent">
-                                <li><?php echo $asesor['ntercero']; ?></li>
-                                <li><i class="fa fa-phone pr-1"></i><a href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></li>
-                                <li><a><i class="fa fa-envelope pr-1"></i><?php echo $asesor['correo']; ?></a></li>
-                            </ul>
+                            <div class="col-12  mt-2 text-center">
+                                <div><?php echo $asesor['ntercero']; ?></div>
+                                <div><i class="fa fa-phone pr-1"></i><a class="color_black" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></div>
+                                <div><i class="fa fa-envelope pr-1"></i><a class="color_black" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></div>
+                    
+                            </div>
+                            
                         </div>
 
                     </div>

@@ -110,8 +110,11 @@ figure{
     color: #cf3c6d;
 }
 .color_face{
-    color: #5172b9;
+    color: #0c50a7;
     
+}
+.color_whapp{
+    color: #00ce65;
 }
 .color_tw{
     color: #00aced;
@@ -631,8 +634,8 @@ figure{
     width: 100%;
 }
 .side-bar-agent-detail figure{
-    width: 31%;
-    float: left;
+    width: 38%;
+    margin-left: 122px;
 }
 
 #img_inmueble{
@@ -662,6 +665,16 @@ figure{
     overflow: hidden;
     display: inline-block;
     text-transform: uppercase;
+}
+.page-item.active .page-link{
+    z-index: 1;
+    color: #fff;
+    background-color: #13294b;
+    border-color: #13294b;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #13294b !important;
+}
+.page-link:focus{
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #13294b !important;
 }
 #medida_nav{
     border: none;

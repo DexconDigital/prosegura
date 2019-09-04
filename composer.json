@@ -1,0 +1,12 @@
+{
+    "name": "vendor2/daniel",
+    "authors": [
+        {
+            "name": "Dexcon",
+            "email": "desarrollo@dexcondigital.com"
+        }
+    ],
+    "require": {
+        "jasongrimes/paginator": "~1.0"
+    }
+}

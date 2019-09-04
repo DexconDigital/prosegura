@@ -1,4 +1,5 @@
 <?php
+
 // modelo inmueble propiedades destacadas
 function modelo_inmueble($r, $cantidad_inmuebles)
 {
@@ -15,20 +16,20 @@ function modelo_inmueble($r, $cantidad_inmuebles)
                   <div class="property-image">
                     <img alt="" src="' . $imagen . '"></div>
                   <div class="precio">';
-    if ($api['Gestion'] == 'Arriendo/venta') {
-      echo '$' . $api['Canon'] . ' <br>$' . $api['Venta'];
-    } else if ($api['Gestion'] == 'Arriendo') {
-      echo '$' . $api['Canon'];
-    } else {
-      echo '$' . $api['Venta'];
-    }
-    echo '
+                      if ($api['Gestion'] == 'Arriendo/venta') {
+                        echo '$' . $api['Canon'] . ' <br>$' . $api['Venta'];
+                      } else if ($api['Gestion'] == 'Arriendo') {
+                        echo '$' . $api['Canon'];
+                      } else {
+                        echo '$' . $api['Venta'];
+                      }
+                      echo '
                   </div>
                   <div class="overlay">
                     <ul class="additional-info">
                       <li>
                         <header>Areá:</header>
-                        <figure>' . $api['AreaConstruida'] . '<sup>2</sup></figure>
+                        <figure>' . $api['AreaConstruida'] . 'm<sup>2</sup></figure>
                       </li>
                       <li>
                         <header>Alcobas:</header>
@@ -74,6 +75,7 @@ function modelo_inmueble2($r)
     $imagen = existeImagen(($r[$i]['foto1']));
     $codigo = str_ireplace("805-", "", $r[$i]['Codigo_Inmueble']);
     $api = $r[$i];
+    
     $descripcion = $api['descripcionlarga'];
     $limite_de_cadena = 10;
     // recortar cadena
@@ -122,7 +124,7 @@ function modelo_inmueble2($r)
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-ruler"></i> ' . $api['AreaConstruida'] . 'm<sup>2</sup></li>
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-bed mr-2"></i>' . $api['Alcobas'] . '</li>
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-bath mr-2"></i>' . $api['banios'] . '</li>
-                                    <li class="col-12 col-md-auto ml-auto"><a href="detalle_inmueble.php?co='.$codigo.' class="btn btn-danger rounded-0">Ver más</a></li>
+                                    <li class="col-12 col-md-auto ml-auto "><a class="color_black" href="detalle_inmueble.php?co='.$codigo.'">Ver más</a></li>
                                 </ul>
                             </div>
                         </div>
