@@ -12,7 +12,7 @@
             <ul style="list-style: none;">
               <li class=" col-lg-12 col-md-12 col-12 ">
                 <div class=" col-md-12 row col-sm-2" style="justify-content: center;">
-                  <div class="col-md-2 col-2 col-sm-1 mr-1 icon_foot"><a href="<?php echo $redes_sociales['facebook']['link'] ?>" target="_blank"><i class="fab fa-facebook-f "></i></a></div>
+                  <div class="col-md-2 col-2 col-sm-1 mr-1 icon_foot"><a class="color_face "href="<?php echo $redes_sociales['facebook']['link'] ?>" target="_blank"><i class="fab fa-facebook-f "></i></a></div>
                   <div class="col-md-2 col-2 col-sm-1 mr-2 icon_foot"><a href="<?php echo $redes_sociales['twitter']['link'] ?>" target="_blank"><i class="fab fa-twitter "></i></a></div>
                   <div class="col-md-2 col-2 col-sm-1 mr-2 icon_foot"><a href="<?php echo $redes_sociales['instagram']['link'] ?>" target="_blank"><i class="fab fa-instagram color_insta "></i></a></div>
                 </div>
