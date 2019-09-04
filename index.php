@@ -76,13 +76,7 @@ $page = 'Inicio' ?>
         </div>
         <div class="col-md-12 col-12 col-lg-12  justify-content-center">
           <div class="owl-carousel owl-theme" id="owl_propiedades_destacadas">
-            <?php 
-              if(!is_array($api)){
-                inmuebles_destacados($api);
-              }else{
-                echo '<h2 class="text-center" >No tiene Inmuebles Destacados22</h2>';
-              }
-                ?>
+          <?php inmuebles_destacados($api);  ?>
           </div>
         </div>
       </div>
@@ -198,25 +192,25 @@ $page = 'Inicio' ?>
         </div>
         <div class="col-12">
           <div class="owl-carousel owl-theme" id="aliados_slide">
-            <div class="item" style="height: 150px;">
+            <div class="item" style="height: 180px;">
               <img style="height: 100%; object-fit: contain;" src="img/LOGO CIEN CUADRAS.png" alt="">
             </div>
-            <div class="item" style="height: 150px;">
+            <div class="item" style="height: 180px;">
               <img style="height: 100%; object-fit: contain;" src="img/LOGO DATA CREDITO.png" alt="">
             </div>
-            <div class="item" style="height: 150px;">
+            <div class="item" style="height: 180px;">
               <img style="height: 100%; object-fit: contain;" src="img/LOGO DAVIVIENDA.png" alt="">
             </div>
-            <div class="item" style="height: 150px;">
+            <div class="item" style="height: 180px;">
               <img style="height: 100%; object-fit: contain;" src="img/LOGO EL LIBERTADOR.png" alt="">
             </div>
-            <div class="item" style="height: 150px;">
+            <div class="item" style="height: 180px;">
               <img style="height: 100%; object-fit: contain;" src="img/LOGO FINCA RAIZ.png" alt="">
             </div>
-            <div class="item" style="height: 150px;">
+            <div class="item" style="height: 180px;">
               <img style="height: 100%; object-fit: contain;" src="img/LOGO SEGUROS MUNDIAL.png" alt="">
             </div>
-            <div class="item" style="height: 150px;">
+            <div class="item" style="height: 180px;">
               <img style="height: 100%; object-fit: contain;" src="img/LOGO SIMI.png" alt="">
             </div>
           </div>

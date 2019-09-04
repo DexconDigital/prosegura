@@ -126,7 +126,7 @@
                 <div class="form-group col-12">
                   <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1" requiered="">
-                    <label class="form-check-label" for="exampleCheck1">Acepto <a class="politicas_contac" href="" class="a-terminos" target="blank">la politica y tratamiento de datos</a></label>
+                    <label class="form-check-label" for="exampleCheck1">Acepto <a class="politicas_contac" href="" class="a-terminos" target="blank">la política y tratamiento de datos</a></label>
                   </div>
                 </div>
                 <div class="form-group col-12">
