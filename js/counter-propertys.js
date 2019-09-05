@@ -11,6 +11,7 @@ setTimeout(() => {
    //  Se busca la clase counter-expence para colocarel valor de los años
     $('.counter-experence').append(total);
 
+    
 
     // ******************************* Total de inmuebles disponibles **************
     $.ajax({
@@ -25,6 +26,15 @@ setTimeout(() => {
            success:function(response)
            {
               //  Se busca la clase counter-propertys para colocarel valor de los inmuebles totales
+
+              /* 
+              let demo = new CountUp('myTargetElement', 5722);
+if (!demo.error) {
+  demo.start();
+} else {
+  console.error(demo.error);
+} */           
+              
               if(response != 'Sin resultados'){
                $('.counter-propertys').append(response.datosGrales.totalInmuebles);
             }else{
@@ -105,3 +115,6 @@ setTimeout(() => {
                        
        });
 }, 500);
+
+
+

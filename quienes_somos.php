@@ -131,8 +131,10 @@ $page = 'Quienes' ?>
   <?php include 'layout/footer.php' ?>
 
   <?php include('layout/archivosfooter.php'); ?>
+  
   <script src="js/counter-propertys.js"></script>
-
+  
+  
 </body>
 
 </html>

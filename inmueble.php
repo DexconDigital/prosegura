@@ -76,6 +76,6 @@ $page='Inmuebles'?>
     <script src="js/responsive-paginate.js"></script>
 
 
-</body>
+    </body>
 
 </html>
