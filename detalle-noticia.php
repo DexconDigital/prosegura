@@ -16,7 +16,7 @@ require_once('controllers/detalle_noticiasController.php'); ?>
     <?php include 'layout/menu.php' ?>
 
     <div class="container-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-4">
 
 
             <div class="col-11 col-md-6 col-lg-4">
@@ -29,7 +29,7 @@ require_once('controllers/detalle_noticiasController.php'); ?>
 
             <div class="col-12">
                 <div class="col-12 p-0 text-center">
-                    <h3 style="color:red"><?php echo $nombre ?></h3>
+                    <h3 class="" ><?php echo $nombre ?></h3>
                 </div>
                 <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2" style="text-align: justify;">
                     <?php echo $noticia ?>

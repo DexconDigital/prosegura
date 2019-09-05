@@ -20,17 +20,17 @@ $color_fondo = "";
         }
 
         .btn-success {
-            background-color: #737272;
-            border-color: #737272;
+            background-color: #13294B;
+            border-color: #13294B;
         }
 
         .btn-success:hover {
-            background-color: #e5120b;
-            border-color: #e5120b;
+            background-color: #848382;
+            border-color: #848382;
         }
 
         body {
-            background-image: url(../img/banner_noticias.png);
+            background-color: #CCD1D1;
             background-attachment: fixed;
             height: 700px;
             margin: 0px;
@@ -42,8 +42,8 @@ $color_fondo = "";
         }
 
         .form-control:focus {
-            border-color: #FF0000;
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+            border-color: #13294B;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(19, 41, 75);
         }
         .img_container{
             padding: 27px;

@@ -4,11 +4,28 @@ require_once("conexion.php");
 include 'layout/layout.php';
 $id=$_GET["id"];
             $con=Conect();
-            $qry="SELECT * FROM noticias where id ='$id' and id_inmobiliaria2 = 1";
+            $qry="SELECT * FROM noticias where id ='$id' and id_inmobiliaria2 = 8";
             $sql=mysqli_query($con,$qry);
             $res=  mysqli_fetch_array($sql) ; 
 ?>
-<div class="container">
+<style>
+.contenedor_color{
+    background-color: white;
+}
+.conct_botton{
+    text-align: center;
+    
+}
+.botonarchivo{
+        margin-left: 25.66667%;
+}
+input[type]:focus{
+    border-color: #13294B; !important;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #13294B; !important;
+    outline: 0 none;
+    }
+</style>
+<div class="container contenedor_color">
     <div class="row justify-content-center">
         <div class="col-9" style=" margin-top: 27px;">
             <h2 class="text-center">Editar Noticia</h2>
@@ -50,7 +67,7 @@ $id=$_GET["id"];
                 </div>
                 <input type="hidden" id="fecha" name="fecha">
                 <div class="form-group row">
-                    <div class="col-8 offset-2">
+                    <div class="col-8 offset-2 conct_botton">
                         <button class="btn btn-dark">Actualizar Noticia</button>
                     </div>
                 </div>

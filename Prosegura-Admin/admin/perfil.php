@@ -8,7 +8,17 @@ $qry = "SELECT * FROM usuarios where usuario ='$user'";
 $sql = mysqli_query($con, $qry);
 $usuario =  mysqli_fetch_array($sql);
 ?>
-
+<style>
+  .container{
+    background-color: white;
+    
+  }
+  textarea:focus, textarea[type]:focus, input:focus, input[type]:focus{
+    border-color: #13294B; !important;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #13294B; !important;
+    outline: 0 none;
+    }
+</style>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-9" style=" margin-top: 27px;">
@@ -63,7 +73,7 @@ $usuario =  mysqli_fetch_array($sql);
                     <div class="panel-footer">
                         <div class="row">
                             <div class="col-8 offset-2">
-                                <button class="btn btn-danger">Actualizar Perfil</button>
+                                <button class="btn btn-dark">Actualizar Perfil</button>
                                 <a href="index.php" class="btn btn-secondary">Cancelar</a>
                             </div>
                         </div>

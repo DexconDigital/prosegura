@@ -16,8 +16,8 @@
         $noticia = $field['noticia'];
         $fecha_complete = $field['fecha'];
     }
-    $comparador='./SantaBarbara-Admin/admin/';
-    $ruta_imagen='./SantaBarbara-Admin/admin/'.$imagen;
+    $comparador='./Prosegura-Admin/admin/';
+    $ruta_imagen='./Prosegura-Admin/admin/'.$imagen;
     $ruta_archivo= $comparador.$archivo;
 
 ?>
