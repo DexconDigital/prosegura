@@ -76,7 +76,7 @@ $page = 'Inicio' ?>
         </div>
         <div class="col-md-12 col-12 col-lg-12  justify-content-center">
           <div class="owl-carousel owl-theme" id="owl_propiedades_destacadas">
-          <?php inmuebles_destacados($api);  ?>
+            <?php inmuebles_destacados($api);  ?>
           </div>
         </div>
       </div>
@@ -193,25 +193,25 @@ $page = 'Inicio' ?>
         <div class="col-12">
           <div class="owl-carousel owl-theme" id="aliados_slide">
             <div class="item" style="height: 180px;">
-              <img style="height: 100%; object-fit: contain;" src="img/LOGO CIEN CUADRAS.png" alt="">
+              <a href="https://www.ciencuadras.com/ " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO CIEN CUADRAS.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
-              <img style="height: 100%; object-fit: contain;" src="img/LOGO DATA CREDITO.png" alt="">
+              <a href="https://www.datacredito.com.co/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO DATA CREDITO.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
-              <img style="height: 100%; object-fit: contain;" src="img/LOGO DAVIVIENDA.png" alt="">
+              <a href="https://www.davivienda.com/wps/portal/personas/nuevo " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO DAVIVIENDA.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
-              <img style="height: 100%; object-fit: contain;" src="img/LOGO EL LIBERTADOR.png" alt="">
+             <a href="http://www.ellibertador.co/wps/portal/el-libertador/home " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO EL LIBERTADOR.png" alt=""></a> 
             </div>
             <div class="item" style="height: 180px;">
-              <img style="height: 100%; object-fit: contain;" src="img/LOGO FINCA RAIZ.png" alt="">
+             <a href="https://www.fincaraiz.com.co/ " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO FINCA RAIZ.png" alt=""></a> 
             </div>
             <div class="item" style="height: 180px;">
-              <img style="height: 100%; object-fit: contain;" src="img/LOGO SEGUROS MUNDIAL.png" alt="">
+             <a href="https://www.segurosmundial.com.co/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SEGUROS MUNDIAL.png" alt=""></a> 
             </div>
             <div class="item" style="height: 180px;">
-              <img style="height: 100%; object-fit: contain;" src="img/LOGO SIMI.png" alt="">
+              <a href="" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SIMI.png" alt=""></a>
             </div>
           </div>
         </div>
