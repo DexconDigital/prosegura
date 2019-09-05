@@ -211,7 +211,7 @@ $page = 'Inicio' ?>
              <a href="https://www.segurosmundial.com.co/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SEGUROS MUNDIAL.png" alt=""></a> 
             </div>
             <div class="item" style="height: 180px;">
-              <a href="" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SIMI.png" alt=""></a>
+              <a href="http://tae-ltda.com/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SIMI.png" alt=""></a>
             </div>
           </div>
         </div>
