@@ -23,14 +23,9 @@ setTimeout(() => {
       // buscar el id en el dom y imprimir el resultado
       let contador = new CountUp("counter-experence",0,total,N_INIT,TIME);
 
+      contador.start();
+
       //  Iniciar el  efecto segun la posicion del scroll
-       $(window).scroll(function (event) {
-         var ubicacion = $("#contador").offset().top;
-           var scroll = $(window).scrollTop();
-             if(scroll > ubicacion-700){
-                  contador.start();
-               }  
-       });
    }
    experence();
 
@@ -46,18 +41,13 @@ setTimeout(() => {
       },
       'dataType': "json",
       success: function (response) {
-         
+         var inmuebles_count = 0;
+         if(response != 'Sin resultados'){
+            var inmuebles_count = response.datosGrales.totalInmuebles;
+         }
          // buscar el id en el dom y imprimir el resultado
-         let contador1 = new CountUp("counter-propertys",0,response.datosGrales.totalInmuebles,N_INIT,TIME);
-         
-         //  Iniciar el  efecto segun la posicion del scroll
-         $(window).scroll(function (event) {
-            var ubicacion = $("#contador").offset().top;
-              var scroll = $(window).scrollTop();
-                if(scroll > ubicacion-700){
-                     contador1.start();
-                  }  
-          });
+         let contador1 = new CountUp("counter-propertys",0,inmuebles_count,N_INIT,TIME);
+         contador1.start();
       }
    });
 
@@ -72,17 +62,14 @@ setTimeout(() => {
       },
       'dataType': "json",
       success: function (response) {
+         var inmuebles_count = 0;
+         if(response != 'Sin resultados'){
+            var inmuebles_count = response.datosGrales.totalInmuebles;
+         }
          // buscar el id en el dom y imprimir el resultado
-         let contador2= new CountUp("counter-rent",0,response.datosGrales.totalInmuebles, N_INIT, TIME);
-         
-         //  Iniciar el  efecto segun la posicion del scroll
-         $(window).scroll(function (event) {
-            var ubicacion = $("#contador").offset().top;
-              var scroll = $(window).scrollTop();
-                if(scroll > ubicacion-700){
-                     contador2.start();
-                  }  
-          });
+         let contador2= new CountUp("counter-rent",0,inmuebles_count, N_INIT, TIME);
+         contador2.start();
+
       }
 
    });
@@ -98,17 +85,13 @@ setTimeout(() => {
       },
       'dataType': "json",
       success: function (response) {
+         var inmuebles_count = 0;
+         if(response != 'Sin resultados'){
+            var inmuebles_count = response.datosGrales.totalInmuebles;
+         }
          // buscar el id en el dom y imprimir el resultado
-         let contador3 = new CountUp("counter-sale",0,response.datosGrales.totalInmuebles,N_INIT,TIME);
-
-         //  Iniciar el  efecto segun la posicion del scroll
-         $(window).scroll(function (event) {
-            var ubicacion = $("#contador").offset().top;
-              var scroll = $(window).scrollTop();
-                if(scroll > ubicacion-700){
-                     contador3.start();
-                  }  
-          });
+         let contador3 = new CountUp("counter-sale",0,inmuebles_count,N_INIT,TIME);
+         contador3.start();
       }
    });
 
@@ -124,18 +107,14 @@ setTimeout(() => {
       },
       'dataType': "json",
       success: function (response) {
-
+         var inmuebles_count = 0;
+         if(response != 'Sin resultados'){
+            var inmuebles_count = response.datosGrales.totalInmuebles;
+         }
+         
          // buscar el id en el dom y imprimir el resultado
-         let contador4 = new CountUp("counter-sale-rent",0,response.datosGrales.totalInmuebles,N_INIT,TIME);
-
-         //  Iniciar el  efecto segun la posicion del scroll
-         $(window).scroll(function (event) {
-            var ubicacion = $("#contador").offset().top;
-              var scroll = $(window).scrollTop();
-                if(scroll > ubicacion-700){
-                     contador4.start();
-                  }  
-          });
+         let contador4 = new CountUp("counter-sale-rent",0,inmuebles_count,N_INIT,TIME);
+         contador4.start();
       }
    });
 }, 500);
