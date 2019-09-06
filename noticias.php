@@ -1,6 +1,6 @@
 <?php $page = 'Noticias';
 require 'variables/variables.php';
-require 'controllers/noticiasController.php' ?>
+require 'controllers/noticiasController.php'; ?>
 <!doctype html>
 <html lang="es">
 
@@ -23,7 +23,7 @@ require 'controllers/noticiasController.php' ?>
                 <h2 class="main-title text-center">Noticias</h2>
             </div>
             <div class=" container">
-            <div class="row">
+                <div class="row">
                     <?php if(isset($noticias_array)){
                         modelo_noticia($noticias_array);
                     }else{

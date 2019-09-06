@@ -91,7 +91,7 @@
       <li class="nav-item espacio_menu <?php if ($page == 'Noticias') {
                                           echo 'active';
                                         } ?>">
-        <a class="nav-link" href="noticias.php">Noticias</a>
+        <a class="nav-link" href="noticias.php?">Noticias</a>
       </li>
       <li class="nav-item espacio_menu">
         <a class="nav-link" href="" data-toggle="modal" data-target="#consigna">Consignar Inmueble</a>
