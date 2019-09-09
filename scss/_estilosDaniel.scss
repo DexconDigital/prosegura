@@ -417,7 +417,7 @@ figure{
     margin: 0px 5px 10px;
 }
 .bg4{
-    background-color: #f5f5f5;
+    background-color: #9ca3af4a;
 }
 .data .counter-wrapper p{
     font-size: 48px;
@@ -763,10 +763,7 @@ figure{
     font-size: 35px; 
     padding: 3px;
 }
-.imagen_zona{
-    object-fit: cover;
-    height: 100%;
-}
+
 .card_magen{
     margin-bottom: 48px;
 }
@@ -854,6 +851,10 @@ figure{
     border-color: #13294B;
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #13294B !important;
 }
+.margen_contenido{
+    margin-left: -16px;
+    margin-top: -18px;
+}
 
 
 
@@ -891,7 +892,7 @@ figure{
         line-height: 1.4;
     }
     .icon_foot{
-        font-size: 17px;
+        font-size: 28px;
          padding: 3px;
     }
     .boton_nogg{
@@ -958,6 +959,15 @@ figure{
     .color_blanco_url{
         font-size: 13px;
     color: white;
+    }
+    .imagen_zona{
+        object-fit: cover;
+        height: 83%;
+    }
+    .tamaño_logo{
+        object-fit: contain;
+        width: 66%;
+        margin-left: 15%;
     }
     
 }
@@ -1059,6 +1069,7 @@ figure{
     text-transform: uppercase;
     background-color: #13294B;
     }
+     
     
     
  }
@@ -1096,6 +1107,11 @@ figure{
         position: relative;
       
 
+    }
+    .tamaño_logo{
+        object-fit: contain;
+        width: 84%;
+        margin-left: 18%;
     }
     .compartir{
         margin-top: 16px;
@@ -1143,7 +1159,10 @@ figure{
     text-transform: uppercase;
     background-color: #13294B;
     }
-    
+    .imagen_zona{
+        object-fit: cover;
+        height: 83%;
+    }
  }
 
  @media (min-width: 992px) { 
@@ -1225,6 +1244,14 @@ figure{
     text-transform: uppercase;
     background-color: #13294B;
     }
+    .imagen_zona{
+        object-fit: cover;
+        height: 83%;
+    }
+    .tamaño_logo{
+        object-fit: contain;
+        width: 83%;
+         margin-left: 6%;
+}
     
-   
  }

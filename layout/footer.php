@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-12 col-lg-4 col-md-6 col-sm-6 ">
             <div class="col-12 col-lg-12 col-sm-10" style="    margin-top:3%;">
-              <img style=" object-fit: contain;width: 100%;" src="<?php echo $logo_empresa['src']; ?>" alt="" height="45%">
+              <img class="tamaño_logo"  src="<?php echo $logo_empresa['src']; ?>" alt="">
             </div>
             <p class="text-center mt-2" style="    font-size: 13px;">Calle 57 # 18-22 oficina 604, Bogotá</p>
             <ul style="list-style: none;">

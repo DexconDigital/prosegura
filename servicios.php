@@ -17,12 +17,12 @@ $page = 'Servicios' ?>
     <?php include 'layout/menu.php' ?>
     <div class="pricing-wrapper index inner-section-padding text-center">
         <div class="container">
-            <div class="col-12 p-4  ">
+            <div class="col-12 p-4   ">
                 <h2 class="main-title text-center"> Nuestros Servicios</h2>
             </div>
 
             <div class="row">
-                <div class="col-12 col-md-12 p-4">
+                <div class="col-12 col-md-12 p-4 margen_contenido">
                     <div class="pricing">
                         <ul style="text-align: justify;">
                             <li class="li_servicios" style="color: #13294B;"><a style="color:black"><?php echo $texto_servicios['parrafos'][0]; ?></a></li>
