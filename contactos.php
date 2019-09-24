@@ -10,7 +10,7 @@ $page = 'Contacto' ?>
 
   <?php include 'layout/archivosheader.php' ?>
 
-  <title>Contacto</title>
+  <title>Contáctanos</title>
 </head>
 
 <body>
@@ -107,7 +107,7 @@ $page = 'Contacto' ?>
                       <h5>Lunes a Viernes de</h5>
                       <h5>8:00 am a 6:00 pm </h5>
                       <h5>Y Sábados de</h5>
-                      <h5>8:00 am a 12:00 pm</h5>
+                      <h5>8:00 am a 12:00 m</h5>
 
                     </div>
                   </div>

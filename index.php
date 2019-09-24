@@ -75,7 +75,7 @@ $page = 'Inicio' ?>
             </div>
             <div id="cuadro_cards" class="extra-info-text margin-control col-lg-12 col-md-12 col-sm-12 ">
               <h3> Propiedad Segura Inmobiliaria PROSEGURA</h3>
-              <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+              <p> Somos una empresa del sector inmobiliario, enfocada al sector privado, ofreciendo servicios de arrendamiento y venta de inmuebles.</p>
               <a href="quienes_somos.php" class="btn rounded-0 color_azul">Ver más</a>
             </div>
           </div>
