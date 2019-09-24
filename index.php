@@ -21,41 +21,23 @@ $page = 'Inicio' ?>
   <?php include 'layout/menu.php' ?>
   <div class="container-fluid body">
     <section id="hero">
-      <div style="position: relative;" id="slide_hero" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="view">
-              <img class="d-block w-100" src="img/slide_1.jpg" alt="First slide">
-              <div class="mask rgba-black-strong"></div>
-            </div>
-            <div class="carousel-caption wow fadeInUp" data-wow-delay="0.6s" style="top:183px;">
-            </div>
+            <img src="img/slide_1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <!--Mask color-->
-            <div class="view">
-              <img class="d-block w-100" src="img/slide_2.jpg" alt="Second slide">
-              <div class="mask rgba-black-strong"></div>
-            </div>
-            <div class="carousel-caption wow fadeInLeft" data-wow-delay="0.6s" style="top:183px;">
-            </div>
+            <img src="img/slide_2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <!--Mask color-->
-            <div class="view">
-              <img class="d-block w-100" src="img/slide_3.jpg" alt="Third slide">
-              <div class="mask rgba-black-strong"></div>
-            </div>
-            <div class="carousel-caption wow fadeInDown" data-wow-delay="0.6s" style="top:183px;">
-            </div>
+            <img src="img/slide_3.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <div class="overlay"></div>
-        <a class="carousel-control-prev" href="#slide_hero" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#slide_hero" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -122,7 +104,7 @@ $page = 'Inicio' ?>
     </section>
 
     <section class="bg-gris">
-      <div class="row justify-content-around">
+      <div class="row justify-content-around" style="  margin-right: 0px;margin-left: 0px;">
         <div class="col-12 p-4  ">
           <h2 class="main-title text-center"> Zona Clientes</h2>
         </div>
@@ -130,33 +112,33 @@ $page = 'Inicio' ?>
           <p class="text-center"> Te facilitamos todas las operaciones, sin que salgas de casa accede a nuestros servicios con un solo clic y de forma segura.</p>
         </div>
 
-        <div class="container mt-5 ">
+        <div class="container contenedor_total_img mt-5 ">
           <div class="card-deck">
             <div class="card contenedor_img_zona" id="cad">
-              <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=1" target="_blank">
+              <a href="" target="_blank">
                 <?php $r = $imagenes['banner_clientes_home']['propietarios'];
                 echo '
                <img  src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
               </a>
               <div>
-                <h3 class="text-center"><a class=" color_zona_cliente " href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=1" target="_blank">Propietarios</a></h3>
+                <h3 class="text-center"><a class=" color_zona_cliente " href="" target="_blank">Propietarios</a></h3>
               </div>
             </div>
 
             <div class="card contenedor_img_zona" id="cad">
-              <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=2" target="_blank">
+              <a href="" target="_blank">
                 <?php $r = $imagenes['banner_clientes_home']['arrendatarios'];
                 echo '
                <img src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
               </a>
-              <h3 class="text-center"> <a class=" color_zona_cliente " target="_blank" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=2">Arrendatarios</a></h3>
+              <h3 class="text-center"> <a class=" color_zona_cliente " target="_blank" href="">Arrendatarios</a></h3>
             </div>
 
             <div class="card contenedor_img_zona" id="cad">
               <a href="" target="_blank">
                 <?php $r = $imagenes['banner_clientes_home']['pagos_pse'];
                 echo '
-               <img style="object-fit: contain;" src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
+               <img src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
               </a>
               <h3 class="text-center"> <a class=" color_zona_cliente " href="" target="_blank">Pagos en Línea</a></h3>
             </div>
@@ -172,18 +154,17 @@ $page = 'Inicio' ?>
         <div class="card cuadro_completo">
           <h3 id="titulo_not" class="text-center">Noticias de interés</h3>
           <div class="card-body">
-            <p class="card-text"> Entérate de todas las novedades que tenemos
-              para ti.</p>
-            <a href="noticias.php" class="btn color_azul rounded-0">Ver más</a>
+            <p class="card-text"> Entérate de todas las novedades que tenemos para ti. Accede a nuestras noticias y demás temas de interés.</p>
+            <a href="noticia.php" class="btn color_azul rounded-0">Ver más</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="aliados">
+    <section id="">
 
-      <div class="row d-flex justify-content-around">
-        <div class="col-12 p-4">
+      <div class="">
+        <div class="col-12 p-2">
           <h2 class="main-title text-center">Nuestros Aliados</h2>
         </div>
         <div class="col-12">
@@ -202,19 +183,20 @@ $page = 'Inicio' ?>
               <a href="https://www.davivienda.com/wps/portal/personas/nuevo " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO DAVIVIENDA.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
-             <a href="http://www.ellibertador.co/wps/portal/el-libertador/home " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO EL LIBERTADOR.png" alt=""></a> 
+              <a href="http://www.ellibertador.co/wps/portal/el-libertador/home " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO EL LIBERTADOR.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
-             <a href="https://www.fincaraiz.com.co/ " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO FINCA RAIZ.png" alt=""></a> 
+              <a href="https://www.fincaraiz.com.co/ " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO FINCA RAIZ.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
-             <a href="https://www.segurosmundial.com.co/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SEGUROS MUNDIAL.png" alt=""></a> 
+              <a href="https://www.segurosmundial.com.co/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SEGUROS MUNDIAL.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
               <a href="http://tae-ltda.com/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SIMI.png" alt=""></a>
             </div>
           </div>
         </div>
+
       </div>
 
 

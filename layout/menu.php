@@ -103,7 +103,8 @@
         <a class="nav-link" href="contactos.php">Contáctanos</a>
       </li>
     </ul>
-    <a class="navbar-brand" href="#">
+    <!--Espacio el cual debe llevar el link del Boton Pse -->
+    <a class="navbar-brand" href="">
       <img style="width: 50px;height: auto;" src="img/logopse.png" width="50" height="50" alt="">
     </a>
   </div>

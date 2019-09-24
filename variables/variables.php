@@ -23,12 +23,12 @@ $redes_sociales = [
 		"imagen" => "images/facebook.png"
 	],
 	"instagram" => [
-		"link" => "https://www.instagram.com/",
+		"link" => "https://www.instagram.com/prosegurasas/?hl=es-la",
 		"icono" => "fab fa-instagram",
 		"imagen" => "images/instagram.png"
 	],
 	"twitter" => [
-		"link" => "https://www.twitter.com/",
+		"link" => "https://twitter.com/ProseguraS",
 		"icono" => "fab fa-twitter",
 		"imagen" => "images/twitter.png"
 	],
@@ -57,7 +57,7 @@ $datos_contacto = [
 	],
 	"whatsapp" => [
 		"link"=> "https://api.whatsapp.com/send?phone=573103302992&text=&source=&data=",
-		"imprimir" => "310 330 2992",
+		"imprimir" => "316 740 8894",
 		"icono" => "fab fa-whatsapp",
 	],
 	"correo" => [
@@ -86,19 +86,19 @@ $logos_aliados = [
 $formularios_aseguradoras = [
 	0 => [
 		'nombre' => 'Libertador Persona Jurídica',
-		'ruta' => '/'
+		'ruta' => 'http://www.ellibertador.co/wps/wcm/connect/42a67a13-dea5-4b1f-a5d6-1540aee97651/Formulario+Persona+Juri%CC%81dica+Bogota%CC%81+-+MAYO+03+DE+2019.pdf?MOD=AJPERES&CVID=mGyh8ai&CVID=mcnb9.7&CVID=mcnb9.7&CVID=mcnb9.7'
 	],
 	1 => [
 		'nombre' => 'Libertador Persona Natural',
-		'ruta' => '/'
+		'ruta' => 'http://www.ellibertador.co/wps/wcm/connect/bcc0e037-d0bb-49fd-ac19-10eda467d855/Formulario+Persona+Natural+Bogota%CC%81+-+MAYO+03+DE+2019.pdf?MOD=AJPERES&CVID=mGyhDnP&CVID=mcnaQRW&CVID=mcnaQRW&CVID=mcnaQRW'
 	],
 	2 => [
 		'nombre' => 'Seguros Mundial Persona Jurídica',
-		'ruta' => '/'
+		'ruta' => 'https://www.arriendosmundial.com/media/FormularioPolizadeArrendamientoPersonaJuridica.pdf'
 	],
 	3 => [
 		'nombre' => 'Seguros Mundial Persona Natural',
-		'ruta' => '/'
+		'ruta' => 'https://www.arriendosmundial.com/media/FormularioP%C3%B3lizadeArrendamientoPersonaNatural.pdf'
 	],
 ];
 
@@ -122,7 +122,7 @@ $imagenes_slide_principal = [
 $texto_quienes_somos = [
 	"quienes_somos" => [
 		"titulo" => "Quiénes Somos",
-		"parrafo" => "",
+		"parrafo" => " Somos una empresa del sector inmobiliario, enfocada al sector privado, ofreciendo servicios de arrendamiento y venta de inmuebles. Constituidos con el propósito de ampliar nuestros servicios a nivel nacional, basados en una ética profesional, buscando la eficiencia y agilidad del servicio inmobiliario y lograr cumplir las expectativas esperadas de nuestros clientes.",
 	],
 	"mision" => [
 		"titulo" => "<strong>Misión</strong>",
@@ -136,7 +136,7 @@ $texto_quienes_somos = [
 	"objetivos" => [
 		"imagen" => "img/objetivos.jpg",
 		"titulo" => "<strong>Objetivos</strong>",
-		"parrafo" => "Con el entusiasmo de un equipo de trabajo consciente, capacitado, preparado y dispuesto a ofrecer un buen servicio, marcando una diferencia con el propósito de lograr un incremento constante de nuestra cartera, manteniendo los actuales, basados en el cumplimiento de los acuerdos contractuales, logrando con ello la satisfacción calificada de nuestros clientes internos y externos.",
+		"parrafo" => "Con el entusiasmo de un equipo de trabajo consciente, capacitado, preparado y dispuesto a ofrecer el mejor de los servicios. Marcar una diferencia y lograr un incremento constante de nuestra cartera, manteniendo los actuales; basados en el cumplimiento de los acuerdos contractuales, en la búsqueda de la satisfacción del servicio a nuestros clientes.",
 	],	
 ];
 
@@ -173,7 +173,7 @@ $imagenes = [
 			'alt' => 'Imagen'
 		],
 		"pagos_pse" => [
-			'imagen' => 'img/PAGO-PSE.png',
+			'imagen' => 'img/PAGO-PSE.jpg',
 			'alt' => 'Imagen'
 		],
 	],

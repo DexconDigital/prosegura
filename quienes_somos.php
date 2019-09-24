@@ -72,7 +72,7 @@ $page = 'Quienes' ?>
         <figure>
           <span class="efecto_somos2">
           </span>
-          <h1 class="text-center tex_parallax2 main-title2">Texto</h1>
+          <h1 class="text-center tex_parallax2 main-title2">PUBLICA TU INMUEBLE CON NOSOTROS</h1>
         </figure>
       </section>
     </div>
