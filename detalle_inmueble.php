@@ -41,6 +41,7 @@ $page = 'Inmuebles' ?>
     </span>
 
 
+
     <link rel="stylesheet" href="css/carousel.inmueble.css">
     <title>Detalle | Inmueble</title>
 </head>

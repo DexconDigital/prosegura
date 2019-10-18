@@ -123,7 +123,7 @@ $page = 'Contacto' ?>
               <div class=" col-lg-12 col-md-12 col-sm-12 col-12 p-4 mt-4  ">
                 <h2 class="main-title text-center"> Datos de Contacto</h2>
               </div>
-              <div class="col-lg-12 col-md.12 col-12  row justify-content-center espacio_contac">
+              <div class="col-lg-12 col-md-12 col-12  row justify-content-center espacio_contac">
                 <div class="col-lg-4 col-md-4 col-12 text-center ">
                   <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
@@ -146,7 +146,7 @@ $page = 'Contacto' ?>
                   <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
                       <div class="col-auto col-md-12 "> <i class="fas fa-mobile-alt mr-2 icon"></i></div>
-                      <div class="col-7 col-md-12">
+                      <div class="col-7 col-md-12 margen_tel">
                         <a style="color:black;" href="tel:<?php echo $datos_contacto['celular']['link'] ?>"><?php echo $datos_contacto['celular']['imprimir'] ?></a>
                       </div>
                     </div>
@@ -156,7 +156,7 @@ $page = 'Contacto' ?>
                   <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
                       <div class="col-auto col-md-12 "> <i class="fas fa-mobile-alt mr-2 icon"></i></div>
-                      <div class="col-7 col-md-12">
+                      <div class="col-7 col-md-12 margen_tel">
                         <a style="color:black;" href="tel:<?php echo $datos_contacto['celular2']['link'] ?>"><?php echo $datos_contacto['celular2']['imprimir'] ?></a>
                       </div>
                     </div>

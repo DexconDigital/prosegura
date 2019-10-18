@@ -20,7 +20,7 @@ $page = 'Quienes' ?>
 
   <!-- Contador -->
   <section id="contador">
-    <div class="col-12  section-padding p-5">
+    <div class="col-12  section-padding p-1">
       <div class="container">
         <h2 class="text-center titulo main-title"><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></h2>
         <div class="row ">
@@ -28,7 +28,7 @@ $page = 'Quienes' ?>
             <p><?php echo $texto_quienes_somos['quienes_somos']['parrafo']  ?></p>
           </div>
 
-          <div class="col-12 col-md-12 row data text-center">
+          <div class="col-12 col-md-12 row data text-center p-0">
             <div class="col-12 col-md-6 invisible">
               <div class="counter-wrapper bg4">
                 <h1 id="counter-experence"></h1>
@@ -89,7 +89,7 @@ $page = 'Quienes' ?>
             </div>
           </div>
           <div class="col-12 col-md-6 col-sm-12">
-            <div>
+            <div class="cont_mision">
               <h5><?php echo $texto_quienes_somos['mision']['titulo'] ?></h5>
               <p style="text-align: justify;"><?php echo $texto_quienes_somos['mision']['parrafo'] ?></p>
             </div>
@@ -102,7 +102,7 @@ $page = 'Quienes' ?>
         </div>
         <div class="row" style="margin-top: 8%;">
           <div class="col-12 col-md-6 col-sm-12">
-            <div class="text_img" style="margin-top: 8%;">
+            <div class="text_img">
               <div>
                 <h5><?php echo $texto_quienes_somos['objetivos']['titulo'] ?></h5>
                 <p style="text-align: justify;"><?php echo $texto_quienes_somos['objetivos']['parrafo'] ?></p>

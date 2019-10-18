@@ -72,11 +72,11 @@ $page = 'Inicio' ?>
               <figure id="targeta" class="">
                 <img id="card_img" src="img/quienes_somos.jpg">
               </figure>
-            </div>
-            <div id="cuadro_cards" class="extra-info-text margin-control col-lg-12 col-md-12 col-sm-12 ">
-              <h3> Propiedad Segura Inmobiliaria PROSEGURA</h3>
-              <p> Somos una empresa del sector inmobiliario, enfocada al sector privado, ofreciendo servicios de arrendamiento y venta de inmuebles.</p>
-              <a href="quienes_somos.php" class="btn rounded-0 color_azul">Ver más</a>
+              <div id="cuadro_cards" class="extra-info-text margin-control col-lg-12 col-md-12 col-sm-12 ">
+                <h3> Propiedad Segura Inmobiliaria PROSEGURA</h3>
+                <p> Somos una empresa del sector inmobiliario, enfocada al sector privado, ofreciendo servicios de arrendamiento y venta de inmuebles.</p>
+                <a href="quienes_somos.php" class="btn rounded-0 color_azul">Ver más</a>
+              </div>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ $page = 'Inicio' ?>
                 echo '
                <img src="' . $r['imagen'] . '" class="w-100" alt="' . $r['alt'] . '">'; ?>
               </figure>
-              <div id="cuadro_cards2" class="e margin-control">
+              <div id="cuadro_cards2" class=" margin-control">
                 <h3> Portafolio de Servicios</h3>
                 <p>Su inmueble
                   será publicado en los portales especializados en propiedad raíz con fotos y video, se le instalaran

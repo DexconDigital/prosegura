@@ -31,7 +31,7 @@ function modelo_ultima_noticia($r)
     $cantidad_noticias = 1;
     for ($i = 0; $i < $cantidad_noticias; $i++) {
         echo '
-    <div class="col-11 col-md-6 col-lg-4">
+    <div class="col-11 col-md-6 col-lg-4 ">
         <div class="card text-center">
             <div class="card-body">
              <h5 class="card-title">' . $r[$i]['titulo'] . '</h5>
@@ -52,7 +52,7 @@ function modelo_noticia($r)
     for ($i = 0; $i < count($r); $i++) {
         $ruta_imagen = "./Prosegura-Admin/admin/" . $r[$i]['imagen'];
         echo '
-        <div class="col-11 col-md-6 col-lg-4">
+        <div class="col-11 col-md-6 col-lg-4 cont_detalle_img">
             <div class="card" style="height: 53%; width: 100%;">
                 <img style="object-fit: cover;width: 100%;height: 100%;"; src="' . $ruta_imagen . '" class="card-img-top" alt="...">  
                 <div class="col-12">
