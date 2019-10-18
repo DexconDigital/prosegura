@@ -5,7 +5,7 @@
     <div class="container ">
       <div class="footer-wrapper section-padding ">
         <div class="row">
-          <div class="col-12 col-lg-4 col-md-6 col-sm-6 ">
+          <div class="col-12 col-lg-4 col-md-12 col-sm-6 ">
             <div class="col-12 col-lg-12 col-sm-10" style="    margin-top:3%;">
               <img class="tamaño_logo"  src="<?php echo $logo_empresa['src']; ?>" alt="">
             </div>

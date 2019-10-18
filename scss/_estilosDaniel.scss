@@ -991,8 +991,8 @@ figure{
     }
     .tamaño_logo{
         object-fit: contain;
-        width: 66%;
-        margin-left: 15%;
+        width: 67%;
+        margin-left: 23%;
     }
     
 }
@@ -1019,6 +1019,7 @@ figure{
         width: 50%;
         float: left;
         position: relative;
+        margin-top: 12%;
     }
     #cuadro_cards2{
         overflow: hidden;
@@ -1039,7 +1040,8 @@ figure{
     }
     .icon_foot{
         font-size: 25px;
-         padding: 3px;
+        padding: 42px;
+        margin-top: -4%;
     }
     .boton_nogg{
         margin-right: 16px;
@@ -1111,6 +1113,13 @@ figure{
         display: block;
         
     }
+    .main-title{
+        position: relative;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 6%;
+
+    }
     .fifth-banner-wrapper h1{
         font-size: 30px;
         font-weight: 600;
@@ -1130,7 +1139,7 @@ figure{
         background-color: #ffffff;
         padding: 0px 40px;
         position: relative;
-      
+        padding: 5%;
 
     }
     .tamaño_logo{
@@ -1201,6 +1210,13 @@ figure{
         background-repeat: no-repeat;
         display: block;
         
+    }
+    #targeta2{
+        overflow: hidden;
+        width: 50%;
+        float: left;
+        position: relative;
+        margin-top: 0%;
     }
     .fifth-banner-wrapper h1{
         font-size: 60px;
