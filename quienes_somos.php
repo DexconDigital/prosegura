@@ -29,13 +29,13 @@ $page = 'Quienes' ?>
           </div>
 
           <div class="col-12 col-md-12 row data text-center p-0">
-            <div class="col-12 col-md-6 invisible">
+            <div class="col-6 col-md-6 invisible">
               <div class="counter-wrapper bg4">
                 <h1 id="counter-experence"></h1>
                 <h2>Años de Experiencia</h2>
               </div>
             </div>
-            <div class="col-12 col-md-6 ">
+            <div class="col-6 col-md-6 ">
               <div class=" counter-wrapper bg4">
                 <h1 id="counter-propertys"></h1>
                 <h2>Total Inmuebles</h2>

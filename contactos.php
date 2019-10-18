@@ -119,7 +119,7 @@ $page = 'Contacto' ?>
         </div>
         <section>
           <div class="container  col-lg-12 col-md-12 col-sm-12 col-12   ">
-            <div class="row" style="    margin-bottom: 16px;">
+            <div class="row" style=" margin-bottom: 16px;">
               <div class=" col-lg-12 col-md-12 col-sm-12 col-12 p-4 mt-4  ">
                 <h2 class="main-title text-center"> Datos de Contacto</h2>
               </div>
@@ -128,7 +128,7 @@ $page = 'Contacto' ?>
                   <div class="col-12 card  style_info" style="">
                     <div class=" row card-body ">
                       <div class="col-auto col-md-12 "><i class="fas fa-map-marker-alt mr-2 icon"></i></div>
-                      <div class="col-9 col-md-12"><a><?php echo $datos_contacto['direccion']['direccion'] ?></a></div>
+                      <div class="col-12 col-md-12 posi_direccion"><a><?php echo $datos_contacto['direccion']['direccion'] ?></a></div>
                     </div>
                   </div>
                 </div>
