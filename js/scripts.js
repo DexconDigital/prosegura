@@ -27,9 +27,11 @@ if (page == 'inicio' && page != undefined) {
     if(cantidad_inmuebles == 1){
         setTimeout(() => {
             $('#owl_propiedades_destacadas').owlCarousel({
-                loop:true,
-                margin:30,
                 nav:false,
+                margin:30,
+                loop:true,
+                
+                
                 responsive:{
                     0:{
                         items:1

@@ -88,7 +88,7 @@ $page = 'Quienes' ?>
           <img src="' . $r['imagen'] . '" class="w-100" alt="">'; ?>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-sm-12">
+          <div class="col-12 col-md-6 col-sm-12 div_textos">
             <div class="cont_mision">
               <h5><?php echo $texto_quienes_somos['mision']['titulo'] ?></h5>
               <p style="text-align: justify;"><?php echo $texto_quienes_somos['mision']['parrafo'] ?></p>
@@ -100,8 +100,8 @@ $page = 'Quienes' ?>
 
           </div>
         </div>
-        <div class="row" style="margin-top: 8%;">
-          <div class="col-12 col-md-6 col-sm-12">
+        <div class="row objetivos_cont">
+          <div class="col-12 col-md-6 col-sm-12 imagen_text_posicon">
             <div class="text_img">
               <div>
                 <h5><?php echo $texto_quienes_somos['objetivos']['titulo'] ?></h5>
@@ -110,7 +110,7 @@ $page = 'Quienes' ?>
 
             </div>
           </div>
-          <div class="col-12 col-md-6 col-sm-12">
+          <div class="col-12 col-md-6 col-sm-12 imgen_posicion">
             <?php $r = $texto_quienes_somos['objetivos'];
             echo '
           <img src="' . $r['imagen'] . '" class="w-100" alt="">'; ?>
