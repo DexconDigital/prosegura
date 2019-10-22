@@ -10,7 +10,7 @@ function modelo_inmueble($r, $cantidad_inmuebles)
 
     echo '
             <div class="col-md-6 col-12 col-lg-12 item">
-            <div class="card" style="">
+            <div class="card mt-4" style="">
               <div class="property">
                 <a href="detalle_inmueble.php?co=' . $codigo . '">
                   <div class="property-image">

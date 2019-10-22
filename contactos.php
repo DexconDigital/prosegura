@@ -1,7 +1,7 @@
 <?php require 'variables/variables.php';
 $page = 'Contacto' ?>
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <!-- Required meta tags -->
@@ -32,7 +32,7 @@ $page = 'Contacto' ?>
               <form role="form">
                 <div class="form-group">
                   <label id="label" for="exampleInputEmail1">
-                    Nombres:
+                    Nombres y Apellidos:
                   </label>
                   <input type="text" class="form-control rounded-0" id="" require>
                 </div>
