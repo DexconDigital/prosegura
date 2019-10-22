@@ -1,7 +1,7 @@
 <?php require 'variables/variables.php';
 $page = 'Quienes' ?>
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <!-- Required meta tags -->

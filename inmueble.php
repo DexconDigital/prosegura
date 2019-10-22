@@ -3,7 +3,7 @@ require 'controllers/inmueblesController.php';
 $page='Inmuebles'?>
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->

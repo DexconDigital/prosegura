@@ -1,7 +1,7 @@
 <?php require 'variables/variables.php';
 $page = 'Servicios' ?>
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->
