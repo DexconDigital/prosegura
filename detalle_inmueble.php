@@ -261,11 +261,13 @@ $page = 'Inmuebles' ?>
                         <div class="search-box daily-email bg2 text-center">
                             <h5 class="mb-0">Propiedades similares</h5>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-12">
+
+                        <div class="col-12 col-md-12 col-lg-12">
+                            <div class="row">
                                 <?php similares($r['IdCiudad'], $r['IdTpInm']); ?>
                             </div>
                         </div>
+
                     </div>
                 </div>
 

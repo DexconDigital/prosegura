@@ -32,31 +32,31 @@ $page = 'Contacto' ?>
               <form role="form">
                 <div class="form-group">
                   <label id="label" for="exampleInputEmail1">
-                    Nombre:
+                    Nombres:
                   </label>
-                  <input type="text" class="form-control rounded-0" id="exampleInputEmail1" />
-                </div>
-                <div class="form-group">
-                  <label id="label" for="exampleInputEmail1">
-                    Apellido:
-                  </label>
-                  <input type="email" class="form-control rounded-0" id="exampleInputEmail1" />
+                  <input type="text" class="form-control rounded-0" id="" require>
                 </div>
               </form>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label id="label" for="">
+                  Teléfono (Opcional):
+                </label>
+                <input type="password" class="form-control rounded-0" id="" require>
+              </div>
+            </div>
+            <div class="col-md-2 ">
+            </div>
+            <div class="col-md-2 ">
+            </div>
+            <div class="col-md-8">
               <form role="form">
                 <div class="form-group">
-                  <label id="label" for="exampleInputEmail1">
+                  <label id="label" for="">
                     Correo electrónico:
                   </label>
-                  <input type="email" class="form-control rounded-0" id="exampleInputEmail1" />
-                </div>
-                <div class="form-group">
-                  <label id="label" for="exampleInputPassword1">
-                    Teléfono (Opcional):
-                  </label>
-                  <input type="password" class="form-control rounded-0" id="exampleInputPassword1" />
+                  <input type="email" class="form-control rounded-0" id="" require>
                 </div>
             </div>
             <div class="col-md-2 ">
@@ -66,11 +66,11 @@ $page = 'Contacto' ?>
                 <div class="col-md-2 ">
                 </div>
                 <div class="col-md-8">
-                  <label id="label">Mensaje:</label>
+                  <label id="label" require>Mensaje:</label>
                   <textarea id="texarea_contacto"></textarea>
                 </div>
-                <div>
-                </div>
+                <div class="col-md-2 ">
+            </div>
               </div>
             </div>
             <div class="container-fluid ">
@@ -80,7 +80,7 @@ $page = 'Contacto' ?>
                 <div class="col-md-9 col-12">
 
                   <div class="container">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" require>
                     <label class="form-check-label" for="exampleCheck1">Confimo que he leído, entendido y acepto la <a class="politicas_contac" href="POLITICA TRATAMIENTO DE DATOS.pdf" download="Politica de tratamiento de infromación.pdf">política de tratamiento de datos personales.</a></label>
                   </div>
 
