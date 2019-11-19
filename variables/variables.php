@@ -18,7 +18,7 @@ $pse = [
 // redes sociales
 $redes_sociales = [
 	"facebook" => [
-		"link" => "https://www.facebook.com/",
+		"link" => " https://www.facebook.com/prosegura.inmob.5",
 		"icono" => "fab fa-facebook-f",
 		"imagen" => "images/facebook.png"
 	],
@@ -79,6 +79,8 @@ $logos_aliados = [
 	4 => "images/LOGO EL LIBERTADOR.png",
 	5 => "images/LOGO SEGUROS MUNDIAL.png",
 	6 => "images/LOGO SIMI.png",
+	7 => "images/LOGO MERCADOLIBRE.png",
+	8 => "images/LOGO OLX.png",
 ];
 
 
@@ -189,13 +191,47 @@ $imagenes = [
 
 //textos servicios
 $texto_servicios = [
-	"parrafos" => [
-		0 => "Su inmueble será publicado en los portales especializados en propiedad raíz con fotos y video, se le instalaran avisos de ventana de diferentes tamaños o pendones según cada caso, se cruzará la información de su inmueble con nuestra base de datos de requerimientos diarios, de manera que podamos encontrar coincidencias entre la oferta y la demanda.",
-		1 => "Garantizamos el pago de su canon de arrendamiento el décimo día de cada periodo mensual, independientemente de que el arrendatario haya pagado o no el mes correspondiente o incluso lleve un tiempo en mora con nosotros. Los honorarios de abogados y demás costos corren por cuenta nuestra.",
-		2 => "Mientras su inmueble este en promoción lo mostraremos de lunes a domingo.",
-		3 => "Mientras su inmueble este en promoción con nosotros, enviaremos de manera semanal y automática a su correo electrónico un detallado informe de gestión donde le indicaremos el número de llamadas recibidas, el número de citas agendadas y la percepción que cada interesado tuvo de su inmueble.",
-		4 => "Enviamos de manera mensual y automática su estado de cuenta y factura a su correo electrónico, así usted estará oportunamente informado de los abonos y descuentos efectuados.",
-		5 => "Nuestra compañía se responsabiliza por el pago directo de las cuotas ordinarias de administración a las copropiedades, con el fin de tener un control más efectivo sobre este rubro, evitando retrasos injustificados que puedan afectar al cliente, propietario o arrendatario.",
-		],	
+	"representacion" => [
+		"titulo" => "<strong>REPRESENTACIÓN LEGAL</strong>",
+		'imagen' => 'img/.jpg',
+		'alt' => 'Imagen'
+		"parrafo" => "Con nuestra experiencia usted no va a tener pleitos legales, nosotros nos encargamos de la cartera morosa, cobros pre jurídico y jurídico. ",
+	],
+	"arrendamientos" => [
+		"titulo" => "<strong>ARRENDAMIENTOS DE INMUEBLES</strong>",
+		'imagen' => 'img/.jpg',
+		'alt' => 'Imagen'
+		"parrafo" => "Nuestro propósito será encontrar el perfil adecuado de arrendatario para su propiedad, salvaguardo sus intereses y ofreciendo una estabilidad tanto a arrendatarios como a propietarios, satisfaciendo los requerimientos y necesidades de nuestros clientes. Contamos con alianzas de reconocidas empresas aseguradoras como El Libertador del Grupo Bolívar y seguros mundial.",
+	],
+	"ventas" => [
+		"titulo" => "<strong>VENTA DE INMUEBLES</strong>",
+		'imagen' => 'img/.jpg',
+		'alt' => 'Imagen'
+		"parrafo" => "Realizamos un sondeo y estudio para sugerir y establecer junto con el propietario el mejor precio de venta del inmueble, acorde a la oferta y demanda del mercado. Utilizando los medios publicitarios necesarios para realizar la transacción en el menor tiempo posible. ",
+	],
+	"publicidad" => [
+		"titulo" => "<strong>PUBLICIDAD</strong>",
+		'imagen' => 'img/.jpg',
+		'alt' => 'Imagen'
+		"parrafo" => "Tenemos alianza con los mejores portales de publicidad de finca raíz, como: Finca Raiz, Ciencuadras, Olx, Mercado libre; donde se utilizan excelentes estrategias publicitarias, soportado con avisos de ventana de diferentes tamaños o pendones según cada caso y necesidad, para optimizar resultados favorables en el menor tiempo posible. Tenemos como premisa arrendar lo más pronto posible su inmueble, por lo tanto, este mostrará de lunes a domingo.",
+	],
+	"administraciones" => [
+		"titulo" => "<strong>PAGO DE ADMINISTRACIONES</strong>",
+		'imagen' => 'img/.jpg',
+		'alt' => 'Imagen'
+		"parrafo" => "Realizamos los pagos de las administraciones en las fechas de pago oportuno con descuentos aplicados al propietario sin generar costos adicionales.",
+	],
+	"seguros" => [
+		"titulo" => "<strong>SEGUROS DE ARRENDAMIENTO</strong>",
+		'imagen' => 'img/.jpg',
+		'alt' => 'Imagen'
+		"parrafo" => "Garantizamos su pago de renta mensual. Como propietario usted cuenta con el respaldo integral, en caso de incumplimiento por el pago del canon de arrendamiento, cuotas a expensas de la administración e impuesto del IVA en el caso de los contratos con destino comercial.",
+	],
+	"reparaciones" => [
+		"titulo" => "<strong>REPARACIONES LOCATIVAS</strong>",
+		'imagen' => 'img/.jpg',
+		'alt' => 'Imagen'
+		"parrafo" => "Contamos con el apoyo de una de las mejores empresas en el tema de reparaciones locativas garantizando su labor de manera profesional con los mejores costos y calidad.",
+	],	
 ];
 ?>
