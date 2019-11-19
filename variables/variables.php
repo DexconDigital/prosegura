@@ -25,7 +25,7 @@ $redes_sociales = [
 	"instagram" => [
 		"link" => "https://www.instagram.com/prosegurasas/?hl=es-la",
 		"icono" => "fab fa-instagram",
-		"imagen" => "images/instagram.png"
+		"imagen" => "images/instagram.png",
 	],
 	"twitter" => [
 		"link" => "https://twitter.com/ProseguraS",
@@ -193,45 +193,45 @@ $imagenes = [
 $texto_servicios = [
 	"representacion" => [
 		"titulo" => "<strong>REPRESENTACIÓN LEGAL</strong>",
-		'imagen' => 'img/.jpg',
-		'alt' => 'Imagen'
-		"parrafo" => "Con nuestra experiencia usted no va a tener pleitos legales, nosotros nos encargamos de la cartera morosa, cobros pre jurídico y jurídico. ",
-	],
+		'imagen' => 'img/representante-legal.jpg',
+		'alt' => 'Imagen',
+		"parrafo" => "Con nuestra experiencia usted no va a tener pleitos legales, nosotros nos encargamos de la cartera morosa, cobros pre jurídico y jurídico.",
+		],
 	"arrendamientos" => [
 		"titulo" => "<strong>ARRENDAMIENTOS DE INMUEBLES</strong>",
-		'imagen' => 'img/.jpg',
-		'alt' => 'Imagen'
+		'imagen' => 'img/arrendamientos.jpg',
+		'alt' => 'Imagen',
 		"parrafo" => "Nuestro propósito será encontrar el perfil adecuado de arrendatario para su propiedad, salvaguardo sus intereses y ofreciendo una estabilidad tanto a arrendatarios como a propietarios, satisfaciendo los requerimientos y necesidades de nuestros clientes. Contamos con alianzas de reconocidas empresas aseguradoras como El Libertador del Grupo Bolívar y seguros mundial.",
 	],
 	"ventas" => [
 		"titulo" => "<strong>VENTA DE INMUEBLES</strong>",
-		'imagen' => 'img/.jpg',
-		'alt' => 'Imagen'
+		'imagen' => 'img/ventas.jpg',
+		'alt' => 'Imagen',
 		"parrafo" => "Realizamos un sondeo y estudio para sugerir y establecer junto con el propietario el mejor precio de venta del inmueble, acorde a la oferta y demanda del mercado. Utilizando los medios publicitarios necesarios para realizar la transacción en el menor tiempo posible. ",
 	],
 	"publicidad" => [
 		"titulo" => "<strong>PUBLICIDAD</strong>",
-		'imagen' => 'img/.jpg',
-		'alt' => 'Imagen'
+		'imagen' => 'img/publicidad.jpg',
+		'alt' => 'Imagen',
 		"parrafo" => "Tenemos alianza con los mejores portales de publicidad de finca raíz, como: Finca Raiz, Ciencuadras, Olx, Mercado libre; donde se utilizan excelentes estrategias publicitarias, soportado con avisos de ventana de diferentes tamaños o pendones según cada caso y necesidad, para optimizar resultados favorables en el menor tiempo posible. Tenemos como premisa arrendar lo más pronto posible su inmueble, por lo tanto, este mostrará de lunes a domingo.",
 	],
-	"administraciones" => [
+	"pagos" => [
 		"titulo" => "<strong>PAGO DE ADMINISTRACIONES</strong>",
-		'imagen' => 'img/.jpg',
-		'alt' => 'Imagen'
+		'imagen' => 'img/pagos.jpg',
+		'alt' => 'Imagen',
 		"parrafo" => "Realizamos los pagos de las administraciones en las fechas de pago oportuno con descuentos aplicados al propietario sin generar costos adicionales.",
 	],
 	"seguros" => [
 		"titulo" => "<strong>SEGUROS DE ARRENDAMIENTO</strong>",
-		'imagen' => 'img/.jpg',
-		'alt' => 'Imagen'
+		'imagen' => 'img/seguro.jpg',
+		'alt' => 'Imagen',
 		"parrafo" => "Garantizamos su pago de renta mensual. Como propietario usted cuenta con el respaldo integral, en caso de incumplimiento por el pago del canon de arrendamiento, cuotas a expensas de la administración e impuesto del IVA en el caso de los contratos con destino comercial.",
 	],
 	"reparaciones" => [
 		"titulo" => "<strong>REPARACIONES LOCATIVAS</strong>",
-		'imagen' => 'img/.jpg',
-		'alt' => 'Imagen'
+		'imagen' => 'img/reparaciones.jpg',
+		'alt' => 'Imagen',
 		"parrafo" => "Contamos con el apoyo de una de las mejores empresas en el tema de reparaciones locativas garantizando su labor de manera profesional con los mejores costos y calidad.",
-	],	
+	],
 ];
 ?>
