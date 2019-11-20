@@ -12,14 +12,15 @@ $page='Inmuebles'?>
 
     <?php include 'layout/archivosheader.php' ?>
 
-    <title>Inmueble</title>
+    <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 </head>
 
 <body>
     <?php include 'layout/menu.php' ?>
-    <div class="container-fluid body">
+    <div class="container-fluid body wow fadeInDown" data-wow-delay="1.5s">
         <?php include 'layout/buscador.php' ?>
     </div>
+
     <div id="propiedades">
         <div class="container">
             <div class="row">

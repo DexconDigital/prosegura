@@ -10,7 +10,7 @@ $page = 'Quienes' ?>
 
   <?php include 'layout/archivosheader.php' ?>
 
-  <title>Quienes Somos</title>
+  <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@ $page = 'Quienes' ?>
   <div class="contaider-fluid body">
 
   <!-- Contador -->
-  <section id="contador">
+  <section id="contador" class="wow bounceInLeft" data-wow-Duration="3s">
     <div class="col-12  section-padding p-1">
       <div class="container">
         <h2 class="text-center titulo main-title"><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></h2>
@@ -66,12 +66,12 @@ $page = 'Quienes' ?>
         <figure>
           <span class="efecto_somos2">
           </span>
-          <h1 class="text-center tex_parallax2 main-title2">PUBLICA TU INMUEBLE CON NOSOTROS</h1>
+          <h1 class="text-center tex_parallax2 main-title2 wow zoomIn" data-wow-Duration="4s">PUBLICA TU INMUEBLE CON NOSOTROS</h1>
         </figure>
       </section>
     </div>
 
-    <div class="container" style="margin-bottom: 15px;">
+    <div class="container wow fadeInUpBig" style="margin-bottom: 15px;">
       <h2 class="main-title contenido_completo text-center p-4"> Misión y Visión</h2>
       <div class="col-12">
         <div class="row">

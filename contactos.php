@@ -10,7 +10,7 @@ $page = 'Contacto' ?>
 
   <?php include 'layout/archivosheader.php' ?>
 
-  <title>Contáctanos</title>
+  <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 </head>
 
 <body>
@@ -22,7 +22,8 @@ $page = 'Contacto' ?>
     <div class="col-12 d-flex justify-content-around">
       <p class="text-center"> Pronto un asesor se contactará contigo:</p>
     </div>
-    <div class="container-fluid  ">
+
+    <div class="container-fluid wow fadeInRightBig" data-wow-delay="1.5s">
       <div class="row justify-content-cente ">
         <div class="col-md-12 ">
           <div class="row">
@@ -117,7 +118,7 @@ $page = 'Contacto' ?>
           </div>
 
         </div>
-        <section>
+        <section class="wow fadeInLeft" data-wow-delay="1.2s">
           <div class="container  col-lg-12 col-md-12 col-sm-12 col-12   ">
             <div class="row" style=" margin-bottom: 16px;">
               <div class=" col-lg-12 col-md-12 col-sm-12 col-12 p-4 mt-4  ">

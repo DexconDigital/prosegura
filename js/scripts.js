@@ -89,6 +89,8 @@ if (page == 'inicio' && page != undefined) {
         loop: true,
         margin: 10,
         nav: false,
+        autoplay: 100,
+        autoplayHoverPause: false, 
         responsive: {
             0: {
                 items: 1

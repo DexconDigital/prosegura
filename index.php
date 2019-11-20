@@ -49,7 +49,7 @@ $page = 'Inicio' ?>
     </section>
 
     <section id="propiedades_destacadas" class="container mt-4 ">
-      <div class="row">
+      
         <div class="col-12 p-4  ">
           <h2 class="main-title text-center"> Propiedades destacadas</h2>
         </div>
@@ -61,7 +61,7 @@ $page = 'Inicio' ?>
             <?php inmuebles_destacados($api);  ?>
           </div>
         </div>
-      </div>
+      
     </section>
 
     <section id="" class="separador-p bg-gris">
@@ -73,7 +73,7 @@ $page = 'Inicio' ?>
                 <img id="card_img" src="img/quienes_somos.jpg">
               </figure>
               <div id="cuadro_cards" class="extra-info-text margin-control col-lg-12 col-md-12 col-sm-12 ">
-                <h3> Propiedad Segura Inmobiliaria PROSEGURA</h3>
+                <h3>PROSEGURA</h3>
                 <p> Somos una empresa del sector inmobiliario, enfocada al sector privado, ofreciendo servicios de arrendamiento y venta de inmuebles.</p>
                 <a href="quienes_somos.php" class="btn rounded-0 color_azul">Ver más</a>
               </div>
@@ -160,7 +160,7 @@ $page = 'Inicio' ?>
         </div>
       </div>
     </section>
-
+<!--
     <section id="">
 
       <div class="">
@@ -201,7 +201,7 @@ $page = 'Inicio' ?>
 
 
     </section>
-
+-->
   </div>
 
 

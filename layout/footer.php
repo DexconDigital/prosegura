@@ -1,6 +1,6 @@
 <i class="fas fa-angle-double-up subir"></i>
 <hr style=" width:82%">
-<footer>
+<footer class="wow flash" data-wow-delay=".8s">
   <section>
     <div class="container ">
       <div class="footer-wrapper section-padding ">
@@ -20,7 +20,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-12 col-lg-4 col-md-6 col-sm-6 " style="width: 25%; ">
+          <div class="col-12 col-lg-4 col-md-6 col-sm-6 aseguradoras" style="width: 25%; ">
             <h6 class="tit_foot"> Formularios aseguradoras</h6>
             <ul class="estilo_foot_list">
               <li class="li_foot">

@@ -342,7 +342,8 @@ figure{
 #parallax .contenedor{
     position: absolute;
     top:0;
-    left:10%;
+    left:0%;
+
 }
 #noticia{
     background-color: #ffffff;
@@ -843,11 +844,7 @@ figure{
      right: 0;
      background-color: #4c4c4c4a;
 }
-#parallax4 .contenedor{
-    position: absolute;
-    top:0;
-    left:10%;
-}
+
 .select_color:focus{
     border-color: #13294B;
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #13294B !important;
@@ -860,6 +857,24 @@ figure{
     margin-top: 7%;
     margin-bottom: 9%;
 }
+.texto_mediano{
+    margin-top: 7%;
+}
+.texto_mediano{
+    margin-top: 6%;
+}
+#servicios{
+    .text{
+        text-align: justify;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+}
+
 
 
 
@@ -880,6 +895,17 @@ figure{
         padding: 30px 40px;
         
         
+    }
+    .aseguradoras{
+        text-align: center;
+        margin-left: -6%;
+    }
+    #parallax4 .contenedor{
+        position: absolute;
+        top:0;
+        padding: 5%;
+        margin-left: 10%;
+
     }
     .text_img{
         margin-top: -25px;
@@ -1117,6 +1143,16 @@ figure{
         display: block;
         
     }
+    .imagen_arrendamientos{
+        margin-top: 15%;
+    }
+    #parallax4 .contenedor{
+        position: absolute;
+        top:0;
+        left:10%;
+        padding: 0%;
+    }
+
     .text_img{
         margin-top: 80px;
     }
@@ -1134,6 +1170,10 @@ figure{
     font-weight: 900;
     margin-top: 6%;
 
+    }
+    .aseguradoras{
+        text-align: left;
+        margin-left: 0%;
     }
     .fifth-banner-wrapper h1{
         font-size: 30px;
@@ -1216,6 +1256,15 @@ figure{
         font-size: 13px;
     color: white;
     }
+    .publicidad{
+        margin-top: 7%;
+    }
+    .seguros{
+        margin-top: 7%;
+    }
+    .texto_pequeño{
+        margin-top: 4%;
+    }
  }
 
  @media (min-width: 992px) { 
@@ -1229,6 +1278,24 @@ figure{
         background-repeat: no-repeat;
         display: block;
         
+    }
+    .texto_pequeño{
+        margin-top: 8%;
+    }
+    .seguros{
+        margin-top: 0%;
+    }
+    #parallax .contenedor{
+        position: absolute;
+        top:0;
+        left:10%;
+        
+    }
+    .imagen_arrendamientos{
+        margin-top: 0%;
+    }
+    .publicidad{
+        margin-top: 0%; 
     }
     .icon_foot{
         font-size: 25px;

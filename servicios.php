@@ -10,34 +10,107 @@ $page = 'Servicios' ?>
 
     <?php include 'layout/archivosheader.php' ?>
 
-    <title>Servicios</title>
+    <title> <?php echo $page . ' | ' . $nombre_inmobiliaria; ?></title>
 </head>
 
 <body>
     <?php include 'layout/menu.php' ?>
-    <div class="pricing-wrapper index inner-section-padding text-center">
+    <div class="text-center">
         <div class="container">
             <div class="col-12 p-4   ">
                 <h2 class="main-title text-center"> Nuestros Servicios</h2>
             </div>
+            <section id="servicios"> 
+                <div class="conatienr ">
+                    <!-- Imagen Der Representacion -->
+                    <div class="col-12 mt-4 wow fadeInRightBig" data-wow-Duration="2s">
+                        <div class="row">
 
-            <div class="row">
-                <div class="col-12 col-md-12 p-4 margen_contenido">
-                    <div class="pricing">
-                        <ul style="text-align: justify;">
-                            <li class="li_servicios" style="color: #13294B;"><a style="color:black"><?php echo $texto_servicios['parrafos'][0]; ?></a></li>
-                            <li class="li_servicios"><a style="color:black"><?php echo $texto_servicios['parrafos'][1]; ?></a></li>
-                            <li class="li_servicios"><a style="color:black"><?php echo $texto_servicios['parrafos'][2]; ?></a></li>
-                            <li class="li_servicios"><a style="color:black"><?php echo $texto_servicios['parrafos'][3]; ?></a></li>
-                            <li class="li_servicios"><a style="color:black"><?php echo $texto_servicios['parrafos'][4]; ?></a></li>
-                        </ul>
+                            <div class="col-12 col-md-6 col-lg-6 texto_pequeño">
+                                <h4><?php echo $texto_servicios['representacion']['titulo'] ?></h4>
+                                <p  class="text" ><?php echo $texto_servicios['representacion']['parrafo'] ?></p>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <img src="img/representante-legal.jpg" alt="<?php echo $texto_servicios['representacion']['alt'] ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagen iz arrendamiento -->
+                    <div class="col-12 mt-4 wow fadeInLeftBig" data-wow-Duration="2s" data-wow-delay=".5s">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <img class="imagen_arrendamientos" src="img/arrendamientos.jpg " alt="<?php echo $texto_servicios['arrendamientos']['alt'] ?>">
 
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 texto_mediano">
+                                <h4><?php echo $texto_servicios['arrendamientos']['titulo'] ?></h4>
+                                <p class="text"><?php echo $texto_servicios['arrendamientos']['parrafo'] ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagen Der venta -->
+                    <div class="col-12 mt-4 wow fadeInRightBig" data-wow-Duration="2s">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6 texto_mediano">
+                                <h4><?php echo $texto_servicios['ventas']['titulo'] ?></h4>
+                                <p class="text"><?php echo $texto_servicios['ventas']['parrafo'] ?></p>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <img src="img/ventas.jpg" alt="<?php echo $texto_servicios['ventas']['alt'] ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagen iz publicidad -->
+                    <div class="col-12 mt-4 wow fadeInLeftBig" data-wow-Duration="2s">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <img class="publicidad" src="img/publici.jpg" alt="<?php echo $texto_servicios['publicidad']['alt'] ?>">
+
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 texto_mediano">
+                                <h4><?php echo $texto_servicios['publicidad']['titulo'] ?></h4>
+                                <p class="text"><?php echo $texto_servicios['publicidad']['parrafo'] ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagen Der pago -->
+                    <div class="col-12 mt-4 wow fadeInRightBig" data-wow-Duration="2s">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6 texto_pequeño ">
+                                <h4><?php echo $texto_servicios['pagos']['titulo'] ?></h4>
+                                <p class="text"><?php echo $texto_servicios['pagos']['parrafo'] ?></p>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <img src="img/pagos.jpg" alt="<?php echo $texto_servicios['pagos']['alt'] ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagen iz seguros -->
+                    <div class="col-12 mt-4 wow fadeInLeftBig" data-wow-Duration="2s">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <img class="seguros" src="img/seguro.jpg" alt="<?php echo $texto_servicios['seguros']['alt'] ?>">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 texto_mediano">
+                                <h4><?php echo $texto_servicios['seguros']['titulo'] ?></h4>
+                                <p class="text"><?php echo $texto_servicios['seguros']['parrafo'] ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagen Der reparacion-->
+                    <div class="col-12 mt-4 wow fadeInRightBig" data-wow-Duration="2s">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6 texto_pequeño">
+                                <h4><?php echo $texto_servicios['reparaciones']['titulo'] ?></h4>
+                                <p class="text"><?php echo $texto_servicios['reparaciones']['parrafo'] ?></p>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <img src="img/reparaciones.jpg" alt="<?php echo $texto_servicios['reparaciones']['alt'] ?>">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-
-
+            </section>
         </div>
 
     </div>

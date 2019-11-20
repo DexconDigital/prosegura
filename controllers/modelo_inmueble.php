@@ -9,7 +9,7 @@ function modelo_inmueble($r, $cantidad_inmuebles)
     $api = $r[$i];
 
     echo '
-            <div class="col-md-6 col-12 col-lg-12 item">
+            <div class="col-md-12 col-12 col-lg-12 item">
             <div class="card mt-4" style="">
               <div class="property">
                 <a href="detalle_inmueble.php?co=' . $codigo . '">
