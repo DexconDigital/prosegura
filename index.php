@@ -89,7 +89,7 @@ $page = 'Inicio' ?>
                <img src="' . $r['imagen'] . '" class="w-100" alt="' . $r['alt'] . '">'; ?>
               </figure>
               <div id="cuadro_cards2" class=" margin-control">
-                <h3> Portafolio de Servicios</h3>
+                <h3>PORTAFOLIO DE SERVICIOS</h3>
                 <p>Su inmueble
                   será publicado en los portales especializados en propiedad raíz con fotos y video, se le instalaran
                   avisos de ventana de diferentes tamaños o pendones según cada caso, se cruzará la información de
@@ -152,7 +152,7 @@ $page = 'Inicio' ?>
       </div>
       <div class="contenedor" id="noticia">
         <div class="card cuadro_completo">
-          <h3 id="titulo_not" class="text-center">Noticias de interés</h3>
+          <h3 id="titulo_not" class="text-center">NOTICIAS DE INTÉRES</h3>
           <div class="card-body">
             <p class="card-text"> Entérate de todas las novedades que tenemos para ti. Accede a nuestras noticias y demás temas de interés.</p>
             <a href="noticia.php" class="btn color_azul rounded-0">Ver más</a>
