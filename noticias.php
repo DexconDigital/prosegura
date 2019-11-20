@@ -18,7 +18,7 @@ require 'controllers/noticiasController.php'; ?>
     <?php include 'layout/menu.php' ?>
 
     <div class="contaider-fluid body wow zoomIn" data-wow-delay="1.2s">
-        <div class="row d-flex justify-content-around  p-4  ">
+        <div class="">
             <div id="main-title titulo_noticias" style="margin-bottom: 26px;" class="col-12 ">
                 <h2 class="main-title text-center">Noticias</h2>
             </div>
