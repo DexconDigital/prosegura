@@ -27,7 +27,7 @@ setTimeout(() => {
 
       //  Iniciar el  efecto segun la posicion del scroll
    }
-   experence();
+   //experence();
 
 
    // ******************************* Total de inmuebles disponibles **************
