@@ -18,50 +18,51 @@ $page = 'Quienes' ?>
 
   <div class="contaider-fluid body">
 
-  <!-- Contador -->
-  <section id="contador" class="wow bounceInLeft" data-wow-Duration="3s">
-    <div class="col-12  section-padding p-1">
-      <div class="container">
-        <h2 class="text-center titulo main-title"><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></h2>
-        <div class="row ">
-          <div style="text-align: justify;" id="texto_reseña" class="col-12 col-md-12 ">
-            <p><?php echo $texto_quienes_somos['quienes_somos']['parrafo']  ?></p>
-          </div>
+    <!-- Contador -->
+    <section id="contador" class="wow bounceInLeft" data-wow-Duration="3s">
+      <div class="col-12  section-padding p-1">
+        <div class="container">
+          <h2 class="text-center titulo main-title"><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></h2>
+          <div class="row ">
+            <div style="text-align: justify;" id="texto_reseña" class="col-12 col-md-12 ">
+              <p><?php echo $texto_quienes_somos['quienes_somos']['parrafo']  ?></p>
+            </div>
 
-          <div class="col-12 col-md-12 row data text-center p-0">
-            <div class="col-12 col-md-6 ">
-              <div class=" counter-wrapper bg4">
-                <h1 id="counter-propertys"></h1>
-                <h2>Total Inmuebles</h2>
+            <div class="col-12 col-md-12 row data text-center p-0">
+
+              <div class="col-12 col-md-6 ">
+                <div class=" counter-wrapper bg4">
+                  <h1 id="counter-propertys"></h1>
+                  <h2>Total Inmuebles</h2>
+                </div>
               </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="counter-wrapper bg4">
-                <h1 id="counter-rent"></h1>
-                <h2>Inmuebles en arriendo</h2>
+              <div class="col-12 col-md-6">
+                <div class="counter-wrapper bg4">
+                  <h1 id="counter-rent"></h1>
+                  <h2>Inmuebles en arriendo</h2>
+                </div>
               </div>
-            </div>
-            <div class="col-12 col-md-6 ">
-              <div class="counter-wrapper bg4">
-                <h1 id="counter-sale"></h1>
-                <h2>Inmuebles en venta</h2>
+              <div class="col-12 col-md-6 ">
+                <div class="counter-wrapper bg4">
+                  <h1 id="counter-sale"></h1>
+                  <h2>Inmuebles en venta</h2>
+                </div>
               </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="counter-wrapper bg4 pl-0 pr-0">
-                <h1 id="counter-sale-rent"></h1>
-                <h2>Inmuebles en Arriendo/venta</h2>
+              <div class="col-12 col-md-6">
+                <div class="counter-wrapper bg4 pl-0 pr-0">
+                  <h1 id="counter-sale-rent"></h1>
+                  <h2>Inmuebles en Arriendo/venta</h2>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- fin de contador -->
+    <!-- fin de contador -->
 
-  <div id='parallax' class="img_static ">
+    <div id='parallax' class="img_static ">
       <section>
         <figure>
           <span class="efecto_somos2">

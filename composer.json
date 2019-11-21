@@ -2,11 +2,11 @@
     "name": "vendor2/daniel",
     "authors": [
         {
-            "name": "Dexcon",
-            "email": "desarrollo@dexcondigital.com"
+            "name": "william solano",
+            "email": "wdsp9898@gmail.com"
         }
     ],
     "require": {
-        "jasongrimes/paginator": "~1.0"
+        "phpmailer/phpmailer": "^6.1"
     }
 }
