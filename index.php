@@ -115,32 +115,32 @@ $page = 'Inicio' ?>
         <div class="container contenedor_total_img mt-5 ">
           <div class="card-deck">
             <div class="card contenedor_img_zona" id="cad">
-              <a href="" target="_blank">
+              <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=1" target="_blank">
                 <?php $r = $imagenes['banner_clientes_home']['propietarios'];
                 echo '
-               <img  src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
+               <img  src="' . $r['imagen'] . '" class="w-100" alt="' . $r['alt'] . '">'; ?>
               </a>
               <div>
-                <h3 class="text-center"><a class=" color_zona_cliente " href="" target="_blank">Propietarios</a></h3>
+                <h3 class="text-center mt-3"><a class=" color_zona_cliente " href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=1" target="_blank">Propietarios</a></h3>
               </div>
             </div>
 
             <div class="card contenedor_img_zona" id="cad">
-              <a href="" target="_blank">
+              <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=2" target="_blank">
                 <?php $r = $imagenes['banner_clientes_home']['arrendatarios'];
                 echo '
-               <img src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
+               <img src="' . $r['imagen'] . '" class="w-100" alt="' . $r['alt'] . '">'; ?>
               </a>
-              <h3 class="text-center"> <a class=" color_zona_cliente " target="_blank" href="">Arrendatarios</a></h3>
+              <h3 class="text-center mt-3"> <a class=" color_zona_cliente " target="_blank" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=805&tipo=2">Arrendatarios</a></h3>
             </div>
 
             <div class="card contenedor_img_zona" id="cad">
               <a href="" target="_blank">
                 <?php $r = $imagenes['banner_clientes_home']['pagos_pse'];
                 echo '
-               <img src="' . $r['imagen'] . '" class="w-100 imagen_zona" alt="' . $r['alt'] . '">'; ?>
+               <img src="' . $r['imagen'] . '" class="w-100" alt="' . $r['alt'] . '">'; ?>
               </a>
-              <h3 class="text-center"> <a class=" color_zona_cliente " href="" target="_blank">Pagos en Línea</a></h3>
+              <h3 class="text-center mt-3"> <a class=" color_zona_cliente " href="" target="_blank">Pagos en Línea</a></h3>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@ $page = 'Inicio' ?>
         </div>
       </div>
     </section>
-<!--
+
     <section id="">
 
       <div class="">
@@ -186,10 +186,13 @@ $page = 'Inicio' ?>
               <a href="http://www.ellibertador.co/wps/portal/el-libertador/home " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO EL LIBERTADOR.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
-              <a href="https://www.fincaraiz.com.co/ " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO FINCA RAIZ.png" alt=""></a>
+              <a href="https://www.fincaraiz.com.co/inmobiliaria-prosegura_sas-346333.aspx" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO FINCA RAIZ.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
               <a href="https://www.segurosmundial.com.co/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SEGUROS MUNDIAL.png" alt=""></a>
+            </div>
+            <div class="item" style="height: 180px;">
+              <a href="https://www.mercadolibre.com.co/  " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/MERCADOLIBRE.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
               <a href="http://tae-ltda.com/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO SIMI.png" alt=""></a>
@@ -201,7 +204,7 @@ $page = 'Inicio' ?>
 
 
     </section>
--->
+
   </div>
 
 

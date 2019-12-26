@@ -34,7 +34,7 @@ try{
     //Cabecera
     $mail->setFrom('Prosegura@prosegura.com', 'Prosegura@prosegura.com');
     //destinos
-    // Correo electronico destinatario $mail->addAddress('');
+    $mail->addAddress('info@prosegura.com.co');
     
 
     $mail->Subject='Mensaje desde la pagina web Prosegura Inmobiliaria';

@@ -18,7 +18,7 @@ $pse = [
 // redes sociales
 $redes_sociales = [
 	"facebook" => [
-		"link" => " https://www.facebook.com/prosegura.inmob.5",
+		"link" => " https://www.facebook.com/inmobil.proseg",
 		"icono" => "fab fa-facebook-f",
 		"imagen" => "images/facebook.png"
 	],
