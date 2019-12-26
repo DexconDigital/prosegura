@@ -61,7 +61,7 @@ $datos_contacto = [
 		"icono" => "fab fa-whatsapp",
 	],
 	"correo" => [
-		"correo" => "prosegurasas@gmail.com",
+		"correo" => "arriendos@prosegura.com.co",
 		"icono" => "far fa-envelope",
 	],
 	"horario" => [

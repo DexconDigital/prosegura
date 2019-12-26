@@ -126,7 +126,7 @@ $page = 'Contacto' ?>
             </div>
             <div class="col-lg-12 col-md-12 col-12  row justify-content-center espacio_contac">
               <div class="col-lg-4 col-md-4 col-12 text-center ">
-                <div class="col-12 card  style_info" style="">
+                <div class="col-12 card  style_info">
                   <div class=" row card-body ">
                     <div class="col-auto col-md-12 "><i class="fas fa-map-marker-alt mr-2 icon"></i></div>
                     <div class="col-12 col-md-12 posi_direccion"><a><?php echo $datos_contacto['direccion']['direccion'] ?></a></div>
@@ -134,7 +134,7 @@ $page = 'Contacto' ?>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-12 text-center espacio_contac  ">
-                <div class="col-12 card  style_info" style="">
+                <div class="col-12 card  style_info">
                   <div class=" row card-body ">
                     <div class="col-auto col-md-12 "> <i class="fas fa-phone-alt mr-2 icon"></i></div>
                     <div class="col-7 col-md-12">
@@ -144,7 +144,7 @@ $page = 'Contacto' ?>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-12 text-center espacio_contac ">
-                <div class="col-12 card  style_info" style="">
+                <div class="col-12 card  style_info">
                   <div class=" row card-body ">
                     <div class="col-auto col-md-12 "> <i class="fas fa-mobile-alt mr-2 icon"></i></div>
                     <div class="col-7 col-md-12 margen_tel">
@@ -154,7 +154,7 @@ $page = 'Contacto' ?>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-12 text-center">
-                <div class="col-12 card  style_info" style="">
+                <div class="col-12 card  style_info">
                   <div class=" row card-body ">
                     <div class="col-auto col-md-12 "> <i class="fas fa-mobile-alt mr-2 icon"></i></div>
                     <div class="col-7 col-md-12 margen_tel">
@@ -164,7 +164,7 @@ $page = 'Contacto' ?>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-12 text-center ">
-                <div class="col-12 card  style_info" style="">
+                <div class="col-12 card  style_info">
                   <div class=" row card-body ">
                     <div class="col-auto col-md-12 "><i class="fab fa-whatsapp mr-2 icon"></i></div>
                     <div class="col-5 col-md-12">
@@ -175,7 +175,7 @@ $page = 'Contacto' ?>
               </div>
 
               <div class="col-lg-4 col-md-4 col-12  text-center ">
-                <div class="col-12 card  style_info" style="">
+                <div class="col-12 card  style_info">
                   <div class=" row card-body ">
                     <div class="col-auto col-md-12 container_ico "><i class="far fa-envelope mr-2 icon"></i></div>
                     <div class="col-auto col-md-12 correo_conter">
