@@ -28,30 +28,26 @@ $page = 'Quienes' ?>
               <p><?php echo $texto_quienes_somos['quienes_somos']['parrafo']  ?></p>
             </div>
 
-            <div class="col-12 col-md-12 row data text-center p-0">
-
-              <div class="col-12 col-md-6 ">
-                <div class=" counter-wrapper bg4">
-                  <h1 id="counter-propertys"></h1>
-                  <h2>Total Inmuebles</h2>
+            <div id="valores" class="col-12 col-md-12 row data text-center p-0 mb-5">
+              
+              <div id="bg4" class="col-12 col-md-6 mb-3 wow bounceInLeft" data-wow-Duration="5s">
+                <div class=" counter-wrapper ">
+                  <h2 class="font-weight-bold">Responsabilidad</h2>
                 </div>
               </div>
-              <div class="col-12 col-md-6">
+              <div id="bg4" class="col-12 col-md-6 wow zoomInDown" data-wow-Duration="3s">
+                <div class="counter-wrapper">
+                  <h2 class="font-weight-bold">Honestidad</h2>
+                </div>
+              </div>
+              <div id="bg4" class="col-12 col-md-6 mb-3 wow zoomInUp" data-wow-Duration="3s">
                 <div class="counter-wrapper bg4">
-                  <h1 id="counter-rent"></h1>
-                  <h2>Inmuebles en arriendo</h2>
+                  <h2 class="font-weight-bold">Cumplimiento</h2>
                 </div>
               </div>
-              <div class="col-12 col-md-6 ">
-                <div class="counter-wrapper bg4">
-                  <h1 id="counter-sale"></h1>
-                  <h2>Inmuebles en venta</h2>
-                </div>
-              </div>
-              <div class="col-12 col-md-6">
+              <div id="bg4" class="col-12 col-md-6 wow bounceInRight" data-wow-Duration="5s">
                 <div class="counter-wrapper bg4 pl-0 pr-0">
-                  <h1 id="counter-sale-rent"></h1>
-                  <h2>Inmuebles en Arriendo/venta</h2>
+                  <h2 class="font-weight-bold">Trasparencia</h2>
                 </div>
               </div>
             </div>

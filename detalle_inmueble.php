@@ -176,18 +176,21 @@ $page = 'Inmuebles' ?>
                             ?>
                         </div>
                         <div class="col-md-12" style="margin-bottom: 12px;;">
-                            <?php
-                            if (count($r['caracteristicasAlrededores']) > 0) {
-                                echo '
-                                            <h4 class="property-single-detail-title"><strong>Características Alrededores</strong></h4>
-                                            <ul">';
-                                for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
-                                    $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
-                                    echo '<li>' . $caracteristicas . '</li>';
-                                }
-                                echo  '</ul>';
+                        <?php
+                        if (count($r['caracteristicasAlrededores']) > 0) {
+                            echo
+                                '<div class="col-md-12" style="margin-bottom: 12px;">
+                                    <h4 class="property-single-detail-title"><strong>Características Exteriores</strong></h4>
+                                        <ul>';
+                            for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
+                                $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
+                                echo '<li>' . $caracteristicas . '</li>';
                             }
-                            ?>
+                            echo  '</ul>
+                                </div>
+                            ';
+                        }
+                        ?>
                         </div>
 
                         <div class="col-12  mb-3">

@@ -50,23 +50,36 @@ function modelo_ultima_noticia($r)
 function modelo_noticia($r)
 {
     for ($i = 0; $i < count($r); $i++) {
+        $nombre = $r[$i]['titulo'];
+      $descrip = $r[$i]['descripcion'];
+        $limite_de_cadena1 = 124;
+        $limite_de_cadena11 = 120;
+        $limite_de_cadena2 = 24;
+        // recortar cadena
+        //pedniente recortar cadena de descripcion corta
+        if (strlen($nombre) >= $limite_de_cadena2) {
+            $nombre = substr($nombre, 0, $limite_de_cadena2) . '...';
+        }else {
+            $nombre = $nombre . '...';
+        }if (strlen($descrip) >= $limite_de_cadena1) {
+            $descrip = substr($descrip, 0, $limite_de_cadena1) . '...';
+        }else {
+            $descrip = $descrip . '...';
+        }
         $ruta_imagen = "./Prosegura-Admin/admin/" . $r[$i]['imagen'];
         echo '
-        <div class="col-11 col-md-6 col-lg-4 cont_detalle_img">
-            <div class="card" style="height: 53%; width: 100%;">
-                <img style="object-fit: cover;width: 100%;height: 100%;"; src="' . $ruta_imagen . '" class="card-img-top" alt="...">  
-                <div class="col-12">
-                    <h4 style="margin-top: 12px;" class="card-title">' . $r[$i]['titulo'] . '</h4>
-                    <p class="card-text">' . $r[$i]['descripcion'] . '</p>
-                    <div class="w-100 d-flex justify-content-center">
-                    <a href="./detalle-noticia.php?co=' . $r[$i]['id'] . '" class="btn color_azul rounded-0 text-center">Ver más</a>
-                    </div>
-                    <div class="col-12 col-md-5">
-                    </div>
-                    <p style="margin-top: 28px; " class="card-text"><small class="text-muted">Publicado el: ' . $r[$i]['fecha'] . '</small></p>
-                </div>
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <div class="card" style="border-color: white;">
+        <img style="object-fit: cover;width: 100%;height: 255px;" src="'.$ruta_imagen.'" class="card-img-top" alt="...">  
+            <div class="card-body espacio_tageta mt-4">
+                <h4 class="card-title"><strong>'  .$nombre. '</strong></h4>
+                <p>' . $r[$i]['fecha'] .'</p>
+                <p style="border-bottom: 1px dashed #646464; margin-bottom: 30px;padding-bottom: 30px;" class="card-text">' . $descrip. '</p>
+                <a id="botton" href="./detalle-noticia.php?co=' . $r[$i]['id'] . '" class="btn boton_index_not text-center rounded-0">Ver más</a>
             </div>
         </div>
+    </div>
     ';
     }
 }
+

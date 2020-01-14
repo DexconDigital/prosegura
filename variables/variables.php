@@ -175,7 +175,7 @@ $imagenes = [
 			'alt' => 'Imagen'
 		],
 		"pagos_pse" => [
-			'imagen' => 'img/PAGO-PSE.jpg',
+			'imagen' => 'img/PAGO-PSE.png',
 			'alt' => 'Imagen'
 		],
 	],

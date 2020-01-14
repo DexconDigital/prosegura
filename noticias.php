@@ -23,6 +23,7 @@ require 'controllers/noticiasController.php'; ?>
                 <h2 class="main-title text-center">Noticias</h2>
             </div>
             <div class=" container">
+                <div class="col-12">
                 <div class="row">
                     <?php if(isset($noticias_array)){
                         modelo_noticia($noticias_array);
@@ -32,6 +33,7 @@ require 'controllers/noticiasController.php'; ?>
                         </div>';
                     }
                     ?>
+                </div>
                 </div>
             </div>
         </div>

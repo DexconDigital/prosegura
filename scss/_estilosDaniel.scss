@@ -132,9 +132,7 @@ figure{
     position: relative;
     width: 100%;
   }
-  .contenedor_img_zona{
-    height: 284px;
-}
+ 
   .color_gris{
   
     background-color: #808184;
@@ -417,10 +415,39 @@ figure{
 .data .counter-wrapper{
     padding: 50px;
     margin: 0px 5px 10px;
+    background-color: #212529;
+
 }
-.bg4{
-    background-color: #9ca3af4a;
+
+#valores{
+
+    #bg4 {
+
+        div,h2 {
+            transition: all 250ms ease-in-out;
+        }
+
+        &:hover {
+
+            div {
+                background-color: white;
+                transform: scale(1.05);
+                border-style: ridge;
+
+            }
+
+            h2 {
+                color: #212529;
+            }
+        }
+
+    }
+    h2{
+        color: white;
+        font-size: 30px !important;
+    }
 }
+
 .data .counter-wrapper p{
     font-size: 48px;
     font-weight: 700;
@@ -874,6 +901,16 @@ figure{
     }
     
 }
+#botton{
+    background-color: #212529;
+    color: white;
+}
+#cont_img_noticia{
+    float: left;
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
+}
 
 
 
@@ -888,6 +925,9 @@ figure{
     .cont_detalle_img{
        // margin-left: 4%;
         margin-bottom: 8%;
+    }
+    .contenedor_img_zona{
+        height: 284px;
     }
     #cuadro_cards {
         overflow: hidden;
@@ -1265,6 +1305,9 @@ figure{
     .texto_pequeño{
         margin-top: 4%;
     }
+    .contenedor_img_zona{
+        height: 195px;
+    }
  }
 
  @media (min-width: 992px) { 
@@ -1278,6 +1321,9 @@ figure{
         background-repeat: no-repeat;
         display: block;
         
+    }
+    .contenedor_img_zona{
+        height: 284px;
     }
     .texto_pequeño{
         margin-top: 8%;
