@@ -47,7 +47,7 @@ $page = 'Quienes' ?>
               </div>
               <div id="bg4" class="col-12 col-md-6 wow bounceInRight" data-wow-Duration="5s">
                 <div class="counter-wrapper bg4 pl-0 pr-0">
-                  <h2 class="font-weight-bold">Trasparencia</h2>
+                  <h2 class="font-weight-bold">Transparencia</h2>
                 </div>
               </div>
             </div>

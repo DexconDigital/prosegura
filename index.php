@@ -48,7 +48,7 @@ $page = 'Inicio' ?>
       <?php include 'layout/buscador.php' ?>
     </section>
 
-    <section id="propiedades_destacadas" class="container mt-4 ">
+    <section id="propiedades_destacadas" class="container mt-4 mb-5 ">
       
         <div class="col-12 p-4  ">
           <h2 class="main-title text-center"> Propiedades destacadas</h2>
@@ -58,7 +58,7 @@ $page = 'Inicio' ?>
         </div>
         <div class="col-md-12 col-12 col-lg-12  justify-content-center">
           <div class="owl-carousel owl-theme" id="owl_propiedades_destacadas">
-            <?php inmuebles_destacados($api);  ?>
+            <?php inmuebles_destacados($api);?>
           </div>
         </div>
       
@@ -73,7 +73,7 @@ $page = 'Inicio' ?>
                 <img id="card_img" src="img/quienes_somos.jpg">
               </figure>
               <div id="cuadro_cards" class="extra-info-text margin-control col-lg-12 col-md-12 col-sm-12 ">
-                <h3>PROSEGURA</h3>
+                <h2 class="titulos" >PROSEGURA</h2>
                 <p> Somos una empresa del sector inmobiliario, enfocada al sector privado, ofreciendo servicios de arrendamiento y venta de inmuebles.</p>
                 <a href="quienes_somos.php" class="btn rounded-0 color_azul">Ver más</a>
               </div>
@@ -89,12 +89,12 @@ $page = 'Inicio' ?>
                <img src="' . $r['imagen'] . '" class="w-100" alt="' . $r['alt'] . '">'; ?>
               </figure>
               <div id="cuadro_cards2" class=" margin-control">
-                <h3>PORTAFOLIO DE SERVICIOS</h3>
+                <h3 class="titulos">PORTAFOLIO DE SERVICIOS</h3>
                 <p>Su inmueble
-                  será publicado en los portales especializados en propiedad raíz con fotos y video, se le instalaran
+                  será publicado en los portales especializados en propiedad raíz con fotos y video, se le instalarán
                   avisos de ventana de diferentes tamaños o pendones según cada caso, se cruzará la información de
                   su inmueble con nuestra base de datos de requerimientos diarios, de manera que podamos
-                  encontrar coincidencias entre la oferta y la demanda</p>
+                  encontrar coincidencias entre la oferta y la demanda.</p>
                 <a href="servicios.php" class="btn color_azul rounded-0">Ver más</a>
               </div>
             </div>
@@ -183,7 +183,7 @@ $page = 'Inicio' ?>
               <a href="https://www.davivienda.com/wps/portal/personas/nuevo " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO DAVIVIENDA.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
-              <a href="http://www.ellibertador.co/wps/portal/el-libertador/home " target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO EL LIBERTADOR.png" alt=""></a>
+              <a href="http://www.ellibertador.co/wps/portal/el-libertador/home " target="_blank"><img style="height: 120%; object-fit: contain;" src="img/LOGO EL LIBERTADOR.png" alt=""></a>
             </div>
             <div class="item" style="height: 180px;">
               <a href="https://www.fincaraiz.com.co/inmobiliaria-prosegura_sas-346333.aspx" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/LOGO FINCA RAIZ.png" alt=""></a>

@@ -206,10 +206,7 @@ figure{
     width: 101%;
     padding: 8px 12px;
   }
-  .color_boton{
-      background-color: #808184;
-      color: white;
-  }
+  
   .property .overlay .additional-info li {
     -moz-transition: 0.8s;
     -webkit-transition: 0.8s;
@@ -226,7 +223,7 @@ figure{
     font-size: 11px;
   }
   .property .overlay .additional-info li figure {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
   }
 
@@ -273,6 +270,7 @@ figure{
     left: 0;
     position: absolute;
   }
+  
   .property .type {
     -moz-transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -296,6 +294,13 @@ figure{
     width: inherit;
     top: 0 !important;
   }
+ 
+.margen_targeta{
+    margin-left: 7%;
+}
+.titulos{
+    font-weight: 900;
+}
   .tag.price {
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
     background-color: #1396e2;
@@ -415,7 +420,7 @@ figure{
 .data .counter-wrapper{
     padding: 50px;
     margin: 0px 5px 10px;
-    background-color: #212529;
+    background-color: $azul;
 
 }
 
@@ -477,8 +482,8 @@ figure{
     margin-bottom: 0px;
 }
 .container2{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -922,6 +927,9 @@ figure{
         overflow: hidden;
         position: relative;
     }
+    .clase_padin{
+        padding-right: 0rem !important;
+      }
     .cont_detalle_img{
        // margin-left: 4%;
         margin-bottom: 8%;
@@ -929,6 +937,9 @@ figure{
     .contenedor_img_zona{
         height: 284px;
     }
+    .clase_padin{
+        padding-right: 1rem !important;
+      }
     #cuadro_cards {
         overflow: hidden;
         background-color: #ffffff;
@@ -1192,7 +1203,9 @@ figure{
         left:10%;
         padding: -1%;
     }
-
+    .clase_padin{
+        padding-right: 0rem !important;
+      }
     .text_img{
         margin-top: 80px;
     }
@@ -1322,6 +1335,9 @@ figure{
         display: block;
         
     }
+    .clase_padin{
+        padding-right: 1rem !important;
+      }
     .contenedor_img_zona{
         height: 284px;
     }

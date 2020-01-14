@@ -201,7 +201,7 @@ $texto_servicios = [
 		"titulo" => "<strong>ARRENDAMIENTOS DE INMUEBLES</strong>",
 		'imagen' => 'img/arrendamientos.jpg',
 		'alt' => 'Imagen',
-		"parrafo" => "Nuestro propósito será encontrar el perfil adecuado de arrendatario para su propiedad, salvaguardo sus intereses y ofreciendo una estabilidad tanto a arrendatarios como a propietarios, satisfaciendo los requerimientos y necesidades de nuestros clientes. Contamos con alianzas de reconocidas empresas aseguradoras como El Libertador del Grupo Bolívar y seguros mundial.",
+		"parrafo" => "Nuestro propósito será encontrar el perfil adecuado de arrendatario para su propiedad, salvaguardo sus intereses y ofreciendo una estabilidad tanto a arrendatarios como a propietarios, satisfaciendo los requerimientos y necesidades de nuestros clientes. Contamos con alianzas de reconocidas empresas aseguradoras como; El Libertador del Grupo Bolívar y Seguros Mundial.",
 	],
 	"ventas" => [
 		"titulo" => "<strong>VENTA DE INMUEBLES</strong>",
