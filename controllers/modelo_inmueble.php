@@ -107,7 +107,7 @@ function modelo_inmueble2($r)
                                 <p style="text-align: justify;">' . $descripcion . '</p>
                             </div>
                             <div class="col-12 col-md-4 text-md-right">
-                                <h6 class="pr-2">$';
+                             <h6 class="pr-2 color_precio">$';
     if ($api['Gestion'] == 'Arriendo') {
       echo $api['Canon'];
     } else if ($api['Gestion'] == 'Venta') {
@@ -124,7 +124,7 @@ function modelo_inmueble2($r)
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-ruler"></i> ' . $api['AreaConstruida'] . 'm<sup>2</sup></li>
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-bed mr-2"></i>' . $api['Alcobas'] . '</li>
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-bath mr-2"></i>' . $api['banios'] . '</li>
-                                    <li class="col-12 col-md-auto ml-auto "><a class="color_black" href="detalle_inmueble.php?co='.$codigo.'">Ver más</a></li>
+                                    <li class="col-12 col-md-auto ml-auto color_black border"><a class=" color_blanco rounded-0 btn" href="detalle_inmueble.php?co='.$codigo.'">Ver más</a></li>
                                 </ul>
                             </div>
                         </div>

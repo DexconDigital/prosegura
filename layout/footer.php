@@ -9,7 +9,7 @@
             <div class="col-12 col-lg-12 col-sm-10" style="    margin-top:3%;">
               <img class="tamaño_logo" src="<?php echo $logo_empresa['src']; ?>" alt="">
             </div>
-            <p class="text-center mt-2" style="    font-size: 13px;">Calle 57 # 18-22 oficina 604, Bogotá</p>
+            <p class="text-center mt-2" style="    font-size: 14px;">Calle 57 # 18-22 oficina 604, Bogotá</p>
             <ul style="list-style: none;">
               <li class=" col-lg-12 col-md-12 col-12 ">
                 <div class=" col-md-12 row col-sm-2" style="justify-content: center;">
@@ -22,20 +22,54 @@
           </div>
           <div class="col-12 col-lg-4 col-md-6 col-sm-6 aseguradoras" style="width: 25%; ">
             <h6 class="tit_foot"> Formularios aseguradoras</h6>
-            <ul class="estilo_foot_list">
-              <li class="li_foot">
-                <a class="color_black" href="<?php echo $formularios_aseguradoras[0]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[0]['nombre'] ?> </a>
-              </li>
-              <li class="li_foot">
-                <a class="color_black" href="<?php echo $formularios_aseguradoras[1]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[1]['nombre'] ?> </a>
-              </li>
-              <li class="li_foot">
-                <a class="color_black" href="<?php echo $formularios_aseguradoras[2]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[2]['nombre'] ?> </a>
-              </li>
-              <li class="li_foot">
-                <a class="color_black" href="<?php echo $formularios_aseguradoras[3]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[3]['nombre'] ?> </a>
-              </li>
-            </ul>
+
+            <div class="col-12  text-center" style="margin-top: -17%; padding: 5%; background-color: #13294B;">
+              <a class="focus_modal" href="" data-toggle="modal" data-target="#exampleModal">
+                <div class="" style="margin-top: 17%;">
+                  <i class="far fa-file-pdf" style="font-size: 60px; color:white; margin-top: 9%;"></i>
+                  <p class="text-center mt-2" style="color:white;">Descargue Aquí</p>
+                  <p class="texto_formularios" style="color:white; margin-top: -50%; margin-bottom: 54%;">Formularios aseguradoras</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="titulo_modal" id="exampleModalLabel">Formularios aseguradoras</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="modal_lista">
+                    <div class="item" style="height: 30px; margin-bottom: 4%;">
+                      <a href="http://www.ellibertador.co/wps/portal/el-libertador/home " target="_blank"><img style="height: 120%; object-fit: contain;" src="img/libertador_modal.png" alt=""></a>
+                    </div>
+                    <li class="margen">
+                      <a class="color_black_2" href="<?php echo $formularios_aseguradoras[0]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[0]['nombre'] ?> </a>
+                    </li>
+                    <li class="margen">
+                      <a class="color_black_2" href="<?php echo $formularios_aseguradoras[1]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[1]['nombre'] ?> </a>
+                    </li>
+                    <div class="item" style="height: 165px; margin-bottom: 4%;">
+                    <a href="https://www.segurosmundial.com.co/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/mundial_modal.png" alt=""></a>
+                    </div>
+                    <li class="margen">
+                      <a class="color_black_2" href="<?php echo $formularios_aseguradoras[2]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[2]['nombre'] ?> </a>
+                    </li>
+                    <li class="margen">
+                      <a class="color_black_2" href="<?php echo $formularios_aseguradoras[3]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[3]['nombre'] ?> </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn boton_formualrio rounded-0" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-lg-4 col-md-6 col-sm-6 " style="width: 25%;">
             <div class="container" style="margin: 13px;margin: 6px 0px 4px 2px;">
@@ -43,7 +77,7 @@
               <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.716021290003!2d-74.07164198555337!3d4.644658043435028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a365d3e3b6f%3A0x6db27910fb7175ad!2sCl.%2057%20%2318-22%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1566996675146!5m2!1ses-419!2sco" width="600" frameborder="0" style="border:0;object-fit: contain;width: 100%;" allowfullscreen=""></iframe>
               </div>
-              <div><a target="_blank" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.716021290003!2d-74.07164198555337!3d4.644658043435028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a365d3e3b6f%3A0x6db27910fb7175ad!2sCl.%2057%20%2318-22%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1566996675146!5m2!1ses-419!2sco" class="btn color_gris rounded-0 col-12 mt-3">Como llegar</a></div>
+              <div class="color_gris"><a target="_blank" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.716021290003!2d-74.07164198555337!3d4.644658043435028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a365d3e3b6f%3A0x6db27910fb7175ad!2sCl.%2057%20%2318-22%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1566996675146!5m2!1ses-419!2sco" class="btn color_boton_llegar rounded-0 col-12">Como llegar</a></div>
 
             </div>
 
@@ -55,7 +89,7 @@
   <hr style=" width:82%">
   <div class="container text-center" style="    padding: 28px;">
     <p class="">
-      Copyright © 2020 <a style="color: #13294b;" href="">Dexcon Digital</a>. Todos los derechos reservados.
+      Copyright © 2020 <a style="color: #2658A3;" href="">Dexcon Digital</a>. Todos los derechos reservados.
     </p>
   </div>
 </footer>

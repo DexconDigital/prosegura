@@ -100,7 +100,11 @@ body.p{
     outline: none !important;
 }
 /* propiedades */
-
+#propiedades{
+    i , .fas{
+        color: $azul;
+    }
+}
 figure{
     margin:0 0;
 }
@@ -134,9 +138,18 @@ figure{
   }
  
   .color_gris{
-  
     background-color: #808184;
-    color: white;
+    
+    :hover{
+        background-color: $azul;
+        color: white;
+    }
+  }
+  .color_precio{
+    font-weight: bolder;
+  }
+  .color_boton_llegar{
+    color: white !important;
   }
   .property:hover img, .property:active img, .property:focus img {
     -moz-backface-visibility: hidden;
@@ -357,14 +370,41 @@ figure{
 .li_foot{
     margin-bottom: 15px;
 }
+.color_blanco{
+    color: white;
+    
+}
+.color_black_detalle{
+    color: $azul;
+}
+.fa{
+    color: $azul;
+}
 .color_black{
-    color: #13294B;
+    color: white;
+    background-color: $azul;
+    :hover{
+        background-color: white;
+        color: $azul;
+        
+    }
 }
 .color_zona_cliente{
     color: #000;
 }
 #container_tamaño_img{
     height: 510px;
+}
+.texto_formularios{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'century-gotic';
+}
+.boton_formualrio{
+    background-color: $azul;
+    color: white !important;
+    
 }
 
 .tit_foot2{
@@ -423,25 +463,34 @@ figure{
     background-color: $azul;
 
 }
-
+.contenedor_servicios{
+    padding-right: 2%;
+    padding-left: 2%;
+}
 #valores{
 
     #bg4 {
 
         div,h2 {
             transition: all 250ms ease-in-out;
+            text-transform: none !important; 
         }
+        .fas, .far{
+            color: white;
+            font-size: 28px;
+           }
 
         &:hover {
 
-            div {
+            div{
                 background-color: white;
                 transform: scale(1.05);
                 border-style: ridge;
 
             }
+           
 
-            h2 {
+            h2,i {
                 color: #212529;
             }
         }
@@ -730,7 +779,7 @@ figure{
 }
 
 #contenedor_contacto{
-    margin-top: 20px;
+  
 }
 #label{
     margin-bottom: 0px;
@@ -741,7 +790,7 @@ figure{
     padding: 10px;background-color: #fff;
     border-radius: 0px;
     padding: 0.67em 0.5em;
-    border: 1px solid #9d9a9b;
+    border: 1px solid #c3c3c3;
     width: 100%;
 }
 .politicas_contac{
@@ -756,7 +805,7 @@ figure{
     padding: 7px 0px 9px;
     border: 0px;
     height: auto;
-    width: 25%;
+    width: 50%;
 
 }
 .estilo_button_contacto{
@@ -791,6 +840,24 @@ figure{
     display: inline-block;
     list-style:none;
      
+}
+.titulo_modal{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'century-gotic';
+}
+.color_black_2{
+    color: $azul;
+}
+.margen{
+    margin-bottom: 3%;
+}
+.focus_modal{
+    text-decoration: none;
+}
+.modal_lista{
+    list-style: none;
 }
 
 .estilo_icono_foot{
@@ -945,7 +1012,6 @@ figure{
         background-color: #ffffff;
         padding: 30px 40px;
         
-        
     }
     .aseguradoras{
         text-align: center;
@@ -989,6 +1055,7 @@ figure{
         margin-bottom: 17px;
         margin: 31px 0px -37px 40px;
         line-height: 1.4;
+        
     }
     .icon_foot{
         font-size: 28px;
@@ -1035,7 +1102,9 @@ figure{
         font-size: 18px;
         margin-left: 35px;
         margin-top: 5px;
+        font-weight: bolder;    
     }
+
     .p_detalle{
         font-size: 13px;
     }
@@ -1118,6 +1187,7 @@ figure{
         margin-bottom: 17px;
         margin: 31px 0px -37px 35px;
         line-height: 1.4;
+        color: white;
     }
     .icon_foot{
         font-size: 25px;
@@ -1193,6 +1263,9 @@ figure{
         background-repeat: no-repeat;
         display: block;
         
+    }
+    .margen_boton{
+        padding-right: 1%;
     }
     .imagen_arrendamientos{
         margin-top: 15%;
@@ -1279,6 +1352,7 @@ figure{
         font-size: 17fpx;
         margin-top: 2px;
         margin-left: 55px;
+        font-weight: bolder;
     }
     .p_detalle{
         font-size: 19px;
@@ -1419,6 +1493,7 @@ figure{
     .precio{
         margin-left: 14px;
         margin-top: 12px;
+        font-weight: bolder;
     }
     .side-bar-agent{
         width: 63%;

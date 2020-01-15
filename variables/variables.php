@@ -61,7 +61,7 @@ $datos_contacto = [
 		"icono" => "fab fa-whatsapp",
 	],
 	"correo" => [
-		"correo" => "arriendos@prosegura.com.co",
+		"correo" => "arriendos@prosegura.com.co}",
 		"icono" => "far fa-envelope",
 	],
 	"horario" => [
@@ -124,7 +124,7 @@ $imagenes_slide_principal = [
 $texto_quienes_somos = [
 	"quienes_somos" => [
 		"titulo" => "Quiénes Somos",
-		"parrafo" => " Somos una empresa del sector inmobiliario, enfocada al sector privado, ofreciendo servicios de arrendamiento y venta de inmuebles. Constituidos con el propósito de ampliar nuestros servicios a nivel nacional, basados en una ética profesional, buscando la eficiencia y agilidad del servicio inmobiliario y lograr cumplir las expectativas esperadas de nuestros clientes.",
+		"parrafo" => " Somos una empresa del sector inmobiliario, enfocada al sector privado, ofreciendo servicios de arrendamiento y venta de inmuebles. Constituidos con el propósito de ampliar nuestros servicios a nivel nacional, basados en una ética profesional, buscando la eficiencia y agilidad del servicio inmobiliario y lograr cumplir las expectativas esperadas de nuestros clientes. <br>   PROSEGURA, es una inmobiliaria caracterizada por ofrecerle a sus clientes una oferta de valor, fundamentada en : <br>",
 	],
 	"mision" => [
 		"titulo" => "<strong>Misión</strong>",

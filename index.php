@@ -54,7 +54,7 @@ $page = 'Inicio' ?>
           <h2 class="main-title text-center"> Propiedades destacadas</h2>
         </div>
         <div class="col-12">
-          <p class="text-center text-uppercase"> Nuestros inmuebles destacados en este momento</p>
+          <p class="text-center"> Nuestros inmuebles destacados en este momento</p>
         </div>
         <div class="col-md-12 col-12 col-lg-12  justify-content-center">
           <div class="owl-carousel owl-theme" id="owl_propiedades_destacadas">

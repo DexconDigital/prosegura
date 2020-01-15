@@ -20,33 +20,38 @@ $page = 'Quienes' ?>
 
     <!-- Contador -->
     <section id="contador" class="wow bounceInLeft" data-wow-Duration="3s">
-      <div class="col-12  section-padding p-1">
+      <div class="col-11 col-md-12 col-lg-12 container section-padding p-1">
         <div class="container">
           <h2 class="text-center titulo main-title"><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></h2>
           <div class="row ">
             <div style="text-align: justify;" id="texto_reseña" class="col-12 col-md-12 ">
               <p><?php echo $texto_quienes_somos['quienes_somos']['parrafo']  ?></p>
+
             </div>
 
             <div id="valores" class="col-12 col-md-12 row data text-center p-0 mb-5">
-              
-              <div id="bg4" class="col-12 col-md-6 mb-3 wow bounceInLeft" data-wow-Duration="5s">
+
+              <div id="bg4" class="col-12 col-md-6 mb-3 margen_boton wow bounceInLeft" data-wow-Duration="5s">
                 <div class=" counter-wrapper ">
+                  <i class="far fa-handshake"></i><br>
                   <h2 class="font-weight-bold">Responsabilidad</h2>
                 </div>
               </div>
               <div id="bg4" class="col-12 col-md-6 wow zoomInDown" data-wow-Duration="3s">
                 <div class="counter-wrapper">
+                  <i class="fas fa-balance-scale"></i><br>
                   <h2 class="font-weight-bold">Honestidad</h2>
                 </div>
               </div>
-              <div id="bg4" class="col-12 col-md-6 mb-3 wow zoomInUp" data-wow-Duration="3s">
+              <div id="bg4" class="col-12 col-md-6 mb-3 margen_boton wow zoomInUp" data-wow-Duration="3s">
                 <div class="counter-wrapper bg4">
+                  <i class="fas fa-clipboard-check"></i><br>
                   <h2 class="font-weight-bold">Cumplimiento</h2>
                 </div>
               </div>
               <div id="bg4" class="col-12 col-md-6 wow bounceInRight" data-wow-Duration="5s">
                 <div class="counter-wrapper bg4 pl-0 pr-0">
+                  <i class="far fa-star"></i><br>
                   <h2 class="font-weight-bold">Transparencia</h2>
                 </div>
               </div>
@@ -72,30 +77,31 @@ $page = 'Quienes' ?>
       <h2 class="main-title contenido_completo text-center p-4"> Misión y Visión</h2>
       <div class="col-12">
         <div class="row">
-          <div class="col-12 col-md-6 col-sm-12">
+          <div class="container col-12 col-md-6 col-sm-12 contenedor_servicios">
             <div class="text_img">
               <?php $r = $texto_quienes_somos['mision'];
               echo '
           <img src="' . $r['imagen'] . '" class="w-100" alt="">'; ?>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-sm-12 div_textos">
+          <div class="col-11 col-md-6 col-sm-12 div_textos container ">
             <div class="cont_mision">
-              <h5><?php echo $texto_quienes_somos['mision']['titulo'] ?></h5>
+              <h3><?php echo $texto_quienes_somos['mision']['titulo'] ?></h3>
               <p style="text-align: justify;"><?php echo $texto_quienes_somos['mision']['parrafo'] ?></p>
             </div>
             <div>
-              <h5><?php echo $texto_quienes_somos['vision']['titulo'] ?></h5>
+              <h3><?php echo $texto_quienes_somos['vision']['titulo'] ?></h3>
               <p style="text-align: justify;"><?php echo $texto_quienes_somos['vision']['parrafo'] ?></p>
             </div>
+            <br>
 
           </div>
         </div>
-        <div class="row objetivos_cont">
-          <div class="col-12 col-md-6 col-sm-12 imagen_text_posicon">
+        <div class="row objetivos_cont text-center">
+          <div class="col-12 col-md-6 col-sm-12 imagen_text_posicon contenedor_servicios margen">
             <div class="text_img">
               <div>
-                <h5><?php echo $texto_quienes_somos['objetivos']['titulo'] ?></h5>
+                <h3><?php echo $texto_quienes_somos['objetivos']['titulo'] ?></h3>
                 <p style="text-align: justify;"><?php echo $texto_quienes_somos['objetivos']['parrafo'] ?></p>
               </div>
 
@@ -125,8 +131,8 @@ $page = 'Quienes' ?>
   <?php include 'layout/footer.php' ?>
 
   <?php include('layout/archivosfooter.php'); ?>
-  <script src='js/countUp.min.js'></script>
-  <script src="js/counter-propertys.js"></script>
+  <!-- <script src='js/countUp.min.js'></script>
+  <script src="js/counter-propertys.js"></script> -->
 
 
 </body>
