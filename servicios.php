@@ -25,7 +25,7 @@ $page = 'Servicios' ?>
                     <!-- Imagen Der Representacion -->
                     <div class="col-12 mt-4 wow fadeInRightBig" data-wow-Duration="2s">
 
-                        <div class="container">
+                        <div class="">
                             <div class="row">
                                 <div class="col-12 col-md-6 col-lg-6 texto_pequeño">
                                     <div class="container">
@@ -34,7 +34,7 @@ $page = 'Servicios' ?>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-6">
-                                    <img src="img/representante-legal.jpg" alt="<?php echo $texto_servicios['representacion']['alt'] ?>">
+                                    <img src="img/representante-legal.jpg" alt="<?php echo $texto_servicios['arrendamientos']['alt'] ?>">
                                 </div>
                             </div>
                         </div>
