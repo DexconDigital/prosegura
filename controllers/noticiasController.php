@@ -69,7 +69,7 @@ function modelo_noticia($r)
         $ruta_imagen = "./Prosegura-Admin/admin/" . $r[$i]['imagen'];
         echo '
         <div class="col-lg-4 col-md-6 col-12 mb-3">
-        <div class="card" style="border-color: white;">
+        <div class="card" style="border-color: white; padding: 0px 15px;">
         <img style="object-fit: cover;width: 100%;height: 255px;" src="'.$ruta_imagen.'" class="card-img-top" alt="...">  
             <div class="card-body espacio_tageta mt-4">
                 <h4 class="card-title"><strong>'  .$nombre. '</strong></h4>

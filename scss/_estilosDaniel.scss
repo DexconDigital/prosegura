@@ -851,7 +851,7 @@ figure{
     color: $azul;
 }
 .margen{
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 .focus_modal{
     text-decoration: none;
@@ -985,8 +985,13 @@ figure{
 }
 
 
-
-
+.margen_contenedor_card{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.margen_lista_card{
+    padding: 5%;
+}
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
     // Estos estilos solo van a funcionar hasta que la pantalla sea menor o igual a 100px;
@@ -1004,9 +1009,6 @@ figure{
     .contenedor_img_zona{
         height: 284px;
     }
-    .clase_padin{
-        padding-right: 1rem !important;
-      }
     #cuadro_cards {
         overflow: hidden;
         background-color: #ffffff;
@@ -1145,6 +1147,9 @@ figure{
         margin-left: 13%;
     }
     
+    .margen_formulario_footer{
+        padding: 4% 0px 3px 32px !important;
+    }
 }
  @media (min-width: 576px) { 
     // funcionar cuando la pantalla sea igual o mayor a mil pixeles
@@ -1277,7 +1282,7 @@ figure{
         padding: -1%;
     }
     .clase_padin{
-        padding-right: 0rem !important;
+        padding-right: 1rem !important;
       }
     .text_img{
         margin-top: 80px;
@@ -1408,6 +1413,9 @@ figure{
         background-repeat: no-repeat;
         display: block;
         
+    }
+    .margen_formulario_footer{
+        padding-right: -1%;
     }
     .clase_padin{
         padding-right: 1rem !important;

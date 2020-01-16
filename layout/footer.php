@@ -10,7 +10,7 @@
               <img class="tamaño_logo" src="<?php echo $logo_empresa['src']; ?>" alt="">
             </div>
             <p class="text-center mt-2" style="    font-size: 14px;">Calle 57 # 18-22 oficina 604, Bogotá</p>
-            <ul style="list-style: none;">
+            <ul style="list-style: none;" class="p-0">
               <li class=" col-lg-12 col-md-12 col-12 ">
                 <div class=" col-md-12 row col-sm-2" style="justify-content: center;">
                   <div class="col-md-2 col-2 col-sm-1 mr-1 icon_foot"><a class="color_face " href="<?php echo $redes_sociales['facebook']['link'] ?>" target="_blank"><i class="fab fa-facebook-f "></i></a></div>
@@ -23,7 +23,7 @@
           <div class="col-12 col-lg-4 col-md-6 col-sm-6 aseguradoras" style="width: 25%; ">
             <h6 class="tit_foot"> Formularios aseguradoras</h6>
 
-            <div class="col-12  text-center" style="margin-top: -17%; padding: 5%; background-color: #13294B;">
+            <div class="col-12  text-center margen_formulario_footer" style="margin-top: -17%; padding: 4% 0px; background-color: #13294B;padding-right: 0px; ">
               <a class="focus_modal" href="" data-toggle="modal" data-target="#exampleModal">
                 <div class="" style="margin-top: 17%;">
                   <i class="far fa-file-pdf" style="font-size: 60px; color:white; margin-top: 9%;"></i>
@@ -54,7 +54,7 @@
                     <li class="margen">
                       <a class="color_black_2" href="<?php echo $formularios_aseguradoras[1]['ruta'] ?>" target="_blank"><i></i> <?php echo $formularios_aseguradoras[1]['nombre'] ?> </a>
                     </li>
-                    <div class="item" style="height: 165px; margin-bottom: 4%;">
+                    <div class="item" style="height: 65px; margin-bottom: 4%; margin-top: 10%;">
                     <a href="https://www.segurosmundial.com.co/" target="_blank"><img style="height: 100%; object-fit: contain;" src="img/mundial_modal.png" alt=""></a>
                     </div>
                     <li class="margen">
