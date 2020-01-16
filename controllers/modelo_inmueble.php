@@ -124,7 +124,7 @@ function modelo_inmueble2($r)
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-ruler"></i> ' . $api['AreaConstruida'] . 'm<sup>2</sup></li>
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-bed mr-2"></i>' . $api['Alcobas'] . '</li>
                                     <li class="col-6 col-md-6 border-left"><i class="fas fa-bath mr-2"></i>' . $api['banios'] . '</li>
-                                    <li class="col-12 col-md-auto ml-auto color_black border text-center mt-5"><a class=" color_blanco rounded-0 btn" href="detalle_inmueble.php?co='.$codigo.'">Ver más</a></li>
+                                    <li class="col-12 col-md-auto ml-auto color_black border text-center mt-5"><a class=" color_blanco rounded-0 btn col-12" href="detalle_inmueble.php?co='.$codigo.'">Ver más</a></li>
                                 </ul>
                             </div>
                         </div>

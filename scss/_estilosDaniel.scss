@@ -137,14 +137,7 @@ figure{
     width: 100%;
   }
  
-  .color_gris{
-    background-color: #808184;
-    
-    :hover{
-        background-color: $azul;
-        color: white;
-    }
-  }
+  
   .color_precio{
     font-weight: bolder;
   }
@@ -372,6 +365,7 @@ figure{
 }
 .color_blanco{
     color: white;
+    background-color: $azul;
     
 }
 .color_black_detalle{
@@ -382,7 +376,7 @@ figure{
 }
 .color_black{
     color: white;
-    background-color: $azul;
+    
     :hover{
         background-color: white;
         color: $azul;
@@ -983,7 +977,9 @@ figure{
     width: 50%;
     height: 50%;
 }
-
+.centrar{
+    overflow: hidden;
+}
 
 .margen_contenedor_card{
     padding-right: 15px;
@@ -1002,6 +998,15 @@ figure{
     .clase_padin{
         padding-right: 0rem !important;
       }
+      .color_gris{
+        background-color: #808184;
+        margin-top: 3%;
+        
+        :hover{
+            background-color: $azul;
+            color: white;
+        }
+      }
     .cont_detalle_img{
        // margin-left: 4%;
         margin-bottom: 8%;
@@ -1017,7 +1022,7 @@ figure{
     }
     .aseguradoras{
         text-align: center;
-        margin-left: -6%;
+        padding: 0 13px;
     }
     #parallax4 .contenedor{
         position: absolute;
@@ -1102,7 +1107,7 @@ figure{
     }
     .precio{
         font-size: 18px;
-        margin-left: 35px;
+        margin-left: -15px;
         margin-top: 5px;
         font-weight: bolder;    
     }
@@ -1148,7 +1153,7 @@ figure{
     }
     
     .margen_formulario_footer{
-        padding: 4% 0px 3px 32px !important;
+        padding: 4% 0px 3px 8px !important;
     }
 }
  @media (min-width: 576px) { 
@@ -1269,6 +1274,15 @@ figure{
         display: block;
         
     }
+    .color_gris{
+        background-color: #808184;
+        margin-top: 3%;
+        
+        :hover{
+            background-color: $azul;
+            color: white;
+        }
+      }
     .margen_boton{
         padding-right: 1%;
     }
@@ -1414,6 +1428,15 @@ figure{
         display: block;
         
     }
+    .color_gris{
+        background-color: #808184;
+        margin-top: 6%;
+        
+        :hover{
+            background-color: $azul;
+            color: white;
+        }
+      }
     .margen_formulario_footer{
         padding-right: -1%;
     }

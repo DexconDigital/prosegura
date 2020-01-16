@@ -109,7 +109,9 @@ $page = 'Inicio' ?>
           <h2 class="main-title text-center"> Zona Clientes</h2>
         </div>
         <div class="col-12">
-          <p class="text-center"> Te facilitamos todas las operaciones, sin que salgas de casa accede a nuestros servicios con un solo clic y de forma segura.</p>
+         <div class="container">
+         <p class="text-center"> Te facilitamos todas las operaciones, sin que salgas de casa accede a nuestros servicios con un solo clic y de forma segura.</p>
+         </div>
         </div>
 
         <div class="container contenedor_total_img mt-5 ">

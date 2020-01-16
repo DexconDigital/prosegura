@@ -21,7 +21,7 @@ $page = 'Quienes' ?>
     <!-- Contador -->
     <section id="contador" class="wow bounceInLeft" data-wow-Duration="3s">
       <div class="col-11 col-md-12 col-lg-12 container section-padding p-1">
-        <div class="container">
+        <div class="container centrar">
           <h2 class="text-center titulo main-title"><?php echo $texto_quienes_somos['quienes_somos']['titulo'] ?></h2>
           <div class="row ">
             <div style="text-align: justify;" id="texto_reseña" class="col-12 col-md-12 ">

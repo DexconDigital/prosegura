@@ -15,7 +15,7 @@ $page = 'Servicios' ?>
 
 <body>
     <?php include 'layout/menu.php' ?>
-    <div class="text-center">
+    <div class="text-center centrar">
         <div class="container">
             <div class="col-12 p-4   ">
                 <h2 class="main-title text-center"> Nuestros Servicios</h2>
