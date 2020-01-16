@@ -245,7 +245,7 @@ $page = 'Inmuebles' ?>
                                 <input type="text" id='area_maxima_buscar' class="form-control rounded-0" placeholder="Área Máxima">
                                 <button type="submit" style="background-color: gray;" class="btn  rounded-0 col-12">Buscar</button>
                             </form>
-                        </div>
+                        </div> 
                         <div class="col-md-12">
                             <h6 class="sidebar-title text-center">Contacto con el asesor</h6>
                             <div class="side-bar-agent-detail mt-3 mb-3">
@@ -262,6 +262,7 @@ $page = 'Inmuebles' ?>
                             </div>
 
                         </div>
+                        
                         <div class="col-md-12">
                             <div class="search-box daily-email bg2 text-center">
                                 <h5 class="mb-0">Propiedades similares</h5>
@@ -274,6 +275,7 @@ $page = 'Inmuebles' ?>
                             </div>
 
                         </div>
+                            
                     </div>
 
                 </div>
