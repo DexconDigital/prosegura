@@ -13,6 +13,7 @@ $fecha = date("Y-m-d");
 $id_inmo = 8;
 
 
+
 $nombre_ar = $_FILES['archivo']['name'];
 $limite_kb = 850;
 if($nombre_ar != ""){

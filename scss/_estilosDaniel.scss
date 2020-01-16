@@ -136,7 +136,10 @@ figure{
     position: relative;
     width: 100%;
   }
- 
+  .color_boton2{
+    background-color: #808184;
+    color: white
+  }
   
   .color_precio{
     font-weight: bolder;
@@ -1001,7 +1004,7 @@ figure{
       .color_gris{
         background-color: #808184;
         margin-top: 3%;
-        
+        color: white;
         :hover{
             background-color: $azul;
             color: white;
@@ -1011,6 +1014,11 @@ figure{
        // margin-left: 4%;
         margin-bottom: 8%;
     }
+
+    .blanco {
+        color: $blanco;
+    }
+
     .contenedor_img_zona{
         height: 284px;
     }
@@ -1277,7 +1285,7 @@ figure{
     .color_gris{
         background-color: #808184;
         margin-top: 3%;
-        
+        color: white;
         :hover{
             background-color: $azul;
             color: white;
@@ -1431,7 +1439,7 @@ figure{
     .color_gris{
         background-color: #808184;
         margin-top: 6%;
-        
+        color: white;
         :hover{
             background-color: $azul;
             color: white;

@@ -1,6 +1,8 @@
 <style>
     .color_boton {
         background-color: #808184;
+    }
+    .buscar{
         color: white;
     }
     .color_boton:hover {
@@ -49,7 +51,7 @@
                     <input type="text" id='precio_maximo_buscar' class="form-control rounded-0 select_color" placeholder="Precio Máximo">
                 </div>
                 <div class="col-lg-6  col-md-12 form-group color_boton">
-                    <button type="button" id="buscar" class="btn btn-lg btn-block rounded-0">Buscar</button>
+                    <button type="button" id="buscar" class="btn btn-lg btn-block rounded-0 buscar">Buscar</button>
                 </div>
         </form>
     </div>

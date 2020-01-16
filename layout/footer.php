@@ -170,7 +170,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn color_gris" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn color_gris blanco" data-dismiss="modal">Cancelar</button>
 
         </div>
       </div>
