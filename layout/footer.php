@@ -23,12 +23,12 @@
           <div class="col-12 col-lg-4 col-md-6 col-sm-6 aseguradoras" style="width: 25%; ">
             <h6 class="tit_foot"> Formularios aseguradoras</h6>
 
-            <div class="col-12  text-center margen_formulario_footer" style="margin-top: -17%; padding: 4% 0px; background-color: #13294B;padding-right: 0px; ">
+            <div class="col-12  text-center margen_formulario_footer" style="margin-top: -17%; padding: 4% 0px;padding-right: 0px; ">
               <a class="focus_modal" href="" data-toggle="modal" data-target="#exampleModal">
                 <div class="" style="margin-top: 17%;">
-                  <i class="far fa-file-pdf" style="font-size: 60px; color:white; margin-top: 9%;"></i>
-                  <p class="text-center mt-2" style="color:white;">Descargue Aquí</p>
-                  <p class="texto_formularios" style="color:white; margin-top: -50%; margin-bottom: 54%;">Formularios aseguradoras</p>
+                  <i class="far fa-file-pdf" style="font-size: 60px; color:#808184; margin-top: 9%;"></i>
+                  <p class="text-center mt-2" style="color:black;font-weight: 700;">Descargue Aquí</p>
+                  <p class="texto_formularios" style="color:black; margin-top: -50%; margin-bottom: 54%;">Formularios aseguradoras</p>
                 </div>
               </a>
             </div>
