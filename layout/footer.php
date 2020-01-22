@@ -89,7 +89,7 @@
   <hr style=" width:82%">
   <div class="container text-center" style="    padding: 28px;">
     <p class="">
-      Copyright © 2020 <a style="color: #2658A3;" href="">Dexcon Digital</a>. Todos los derechos reservados.
+     Diseñado y Desarrollado por <a style="color: #2658A3;" href="">Dexcon Digital</a> ©Copyright 2020 para Inmobiliaria Prosegura. Todos los derechos reservados.
     </p>
   </div>
 </footer>
