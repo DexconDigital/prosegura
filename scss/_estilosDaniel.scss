@@ -457,7 +457,17 @@ figure{
 .data .counter-wrapper{
     padding: 50px;
     margin: 0px 5px 10px;
-    background-color: $gis;
+    height: 199px;
+    text-align: center;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(45deg,rgb(19, 41 ,75 ) 0%, rgba(237,237,237,1) 47%, rgb(19, 41 ,75 ) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgb(19, 41, 75 )), color-stop(47%, rgba(237,237,237,1)), color-stop(100%, rgb(19, 41 ,75 )));
+    background: -webkit-linear-gradient(45deg, rgb(19, 41 ,75 ) 0%, rgba(237,237,237,1) 47%, rgb(19, 41 ,75 ) 100%);
+    background: -o-linear-gradient(45deg, rgb(19, 41 ,75 ) 0%, rgba(237,237,237,1) 47%, rgb(19, 41 ,75 ) 100%);
+    background: -ms-linear-gradient(45deg, rgb(19, 41 ,75 ) 0%, rgba(237,237,237,1) 47%, rgb(19, 41 ,75 ) 100%);
+    background: linear-gradient(45deg, rgb(19, 41 ,75 ) 0%, rgba(237,237,237,1) 47%, rgb(19, 41 ,75 ) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    
 
 }
 .contenedor_servicios{
@@ -473,7 +483,7 @@ figure{
             text-transform: none !important; 
         }
         .fas, .far{
-            color: white;
+            color: $azul;
             font-size: 28px;
            }
 
@@ -494,7 +504,7 @@ figure{
 
     }
     h2{
-        color: white;
+        color: $azul;
         font-size: 30px !important;
     }
 }

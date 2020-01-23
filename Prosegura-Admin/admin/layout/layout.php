@@ -42,11 +42,11 @@ $imagen_inicio = $usuario[8];
         }
 
         .color_ul {
-            background-color: black;
+            background-color: #13294B;
         }
 
         .color_nv {
-            background-color: black;
+            background-color: #13294B;
         }
 
         .colo_ico {
@@ -55,6 +55,18 @@ $imagen_inicio = $usuario[8];
 
         .colo_ico2 {
             color: white;
+        }
+        .fondo_imagen {
+            background-image: url("images/background_admin_noticias.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
         }
     </style>
 </head>
@@ -114,8 +126,8 @@ $imagen_inicio = $usuario[8];
 <body id="page-top">
 
     <nav class="navbar navbar-expand static-top color_nv">
-        <div style="width: 15%;">
-            <a class="navbar-brand mr-1" href="layout.html"><img style="object-fit: contain;width: 100%;height: 100%;" src="images/logo.png" alt=""></a>
+        <div style="width: 17%;margin-top: 1%;">
+            <a class="navbar-brand mr-1" href="layout.html"><img style="object-fit: contain;width: 100%;height: 100%;" src="images/Logo_blanco.png" alt=""></a>
         </div>
 
 
@@ -172,7 +184,7 @@ $imagen_inicio = $usuario[8];
             </li>
         </ul>
 
-
+        <div id="content-wrapper" style="background: #c8cfda21;position: relative;">
 
 
 

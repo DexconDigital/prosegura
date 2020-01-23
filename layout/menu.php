@@ -104,7 +104,7 @@
       </li>
     </ul>
     <!--Espacio el cual debe llevar el link del Boton Pse -->
-    <a class="navbar-brand" href="https://gateway2.tucompra.com.co/sites/propiedadsegura/facturacion.xhtml" target="_blank">
+    <a class="navbar-brand" href="https://gateway2.tucompra.com.co/sites/propiedadsegura" target="_blank">
       <img style="width: 50px;height: auto;" src="img/logopse.png" width="50" height="50" alt="">
     </a>
   </div>
