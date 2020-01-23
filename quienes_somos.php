@@ -29,7 +29,7 @@ $page = 'Quienes' ?>
 
             </div>
 
-            <div id="valores" class="col-12 col-md-12 row data text-center p-0 mb-5">
+            <div id="valores" class="col-12 col-md-12 row data text-center mb-5">
 
               <div id="bg4" class="col-12 col-md-6 mb-3 margen_boton wow bounceInLeft" data-wow-Duration="5s">
                 <div class=" counter-wrapper">
