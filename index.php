@@ -157,7 +157,7 @@ $page = 'Inicio' ?>
           <h3 id="titulo_not" class="text-center">NOTICIAS DE INTÉRES</h3>
           <div class="card-body">
             <p class="card-text"> Entérate de todas las novedades que tenemos para ti. Accede a nuestras noticias y demás temas de interés.</p>
-            <a href="noticia.php" class="btn color_azul rounded-0">Ver más</a>
+            <a href="noticias.php" class="btn color_azul rounded-0">Ver más</a>
           </div>
         </div>
       </div>
