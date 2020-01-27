@@ -21,7 +21,7 @@
             </ul>
           </div>
           <div class="col-12 col-lg-4 col-md-6 col-sm-6 aseguradoras" style="width: 25%; ">
-            <h6 class="tit_foot"> Formularios aseguradoras</h6>
+            <h6 class="tit_foot"></h6>
 
             <div class="col-12  text-center margen_formulario_footer" style="margin-top: -17%; padding: 4% 0px;padding-right: 0px; ">
               <a class="focus_modal" href="" data-toggle="modal" data-target="#exampleModal">

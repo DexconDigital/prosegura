@@ -37,7 +37,8 @@ try{
     
     $mail->isHTML(true);
     $mail->setFrom('Prosegura@prosegura.com', 'Prosegura@prosegura.com');
-    $mail->addAddress('info@prosegura.com.co');
+    /* $mail->addAddress('info@prosegura.com.co'); */
+    
 
     $mail->Subject='Mensaje desde la pagina web Prosegura Inmobiliaria';
     $mail->Body = '<span>Hola, '.$nombre.' quiere recibir información sobre como conisgnar un inmueble y sus datos de contacto son:</span>

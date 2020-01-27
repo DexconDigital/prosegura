@@ -12,8 +12,6 @@ $destino="fotos/".$nombre_foto;
 $fecha = date("Y-m-d");
 $id_inmo = 8;
 
-
-
 $nombre_ar = $_FILES['archivo']['name'];
 $limite_kb = 850;
 if($nombre_ar != ""){
@@ -35,13 +33,17 @@ if($nombre_ar != ""){
 
 
 $con = Conect();
+
     copy($ruta,$destino);
 
     if($nombre_ar!=""){
-        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$destino', '$destinos', '$noticia', '$fecha', '$id_inmo')");
+        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (null, '$nombre', '$descripcion', '$destino', '$destinos', '$noticia', '$fecha', '$id_inmo')");
+        /* echo mysqli_errno($enlace) . ": " . mysqli_error($enlace) . "\n"; */
         header("Location: lista-publicaciones.php");
+
     }else{
-        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (NULL, '$nombre', '$descripcion', '$destino', '', '$noticia', '$fecha', '$id_inmo')");
+        mysqli_query($con, "INSERT INTO `noticias` (`id`, `nombre`, `descripcion`, `imagen`, `archivo`, `noticia`, `fecha`, `id_inmobiliaria2`) VALUES (null, '$nombre', '$descripcion', '$destino', '', '$noticia', '$fecha', '$id_inmo')");
+       /*  echo mysqli_errno($con) . ": " . mysqli_error($con) . "\n";
+        die(); */
         header("Location: lista-publicaciones.php");
     }
-?>

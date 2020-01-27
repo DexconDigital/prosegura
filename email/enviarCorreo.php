@@ -12,7 +12,6 @@ if ($_POST) {
     $mensaje = $_POST['mess'];
 }
 
-
 $mail = new PHPMailer(true);
 
 try{
@@ -34,14 +33,17 @@ try{
     //Cabecera
     $mail->setFrom('Prosegura@prosegura.com', 'Prosegura@prosegura.com');
     //destinos
-    $mail->addAddress('info@prosegura.com.co');
+    /* $mail->addAddress('info@prosegura.com.co'); */
+    $mail->addAddress('wdsp9898@gmail.com');
     
 
     $mail->Subject='Mensaje desde la pagina web Prosegura Inmobiliaria';
-    $mail->Body = '<span>Hola, '.$nombre.' quiere contactarse con ustedes sus datos de contacto son: </span>
+    $mail->Body = '<span>Hola, '.$nombre.' quiere contactarse con ustedes.</span>
+                   <h4> Sus datos de contacto son: </h4>
                     <ul>
+                        <li>Nombre: '.$nombre.'</li>
                         <li>Correo: '.$email.'</li>
-                        <li>Telefono: '.$telefono.'</li>
+                        <li>Teléfono: '.$telefono.'</li>
                         <li>Mensaje: '.$mensaje.'</li>
                     </ul>
     ';

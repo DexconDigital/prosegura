@@ -43,7 +43,7 @@ if($destino == $comparador_fotos && $destinos == $comparador_archivo){
         if(!$sql){
     }else{
         echo 'actualizo solo la informacion de texto';
-        die();
+        
         header("Location: lista-publicaciones.php");
     }
     
@@ -73,7 +73,7 @@ if($destino == $comparador_fotos && $destinos != $comparador_archivo){
         echo 'No se logro actualizar';
     }else{
         echo 'actualizar archivos pero no imagen';
-        die();
+        
         header("Location: lista-publicaciones.php");
     }
 }
