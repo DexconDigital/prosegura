@@ -201,7 +201,7 @@ $texto_servicios = [
 		"titulo" => "<strong>ARRENDAMIENTOS DE INMUEBLES</strong>",
 		'imagen' => 'img/arrendamientos.jpg',
 		'alt' => 'Imagen',
-		"parrafo" => "Nuestro propósito será encontrar el perfil adecuado de arrendatario para su propiedad, salvaguardo sus intereses y ofreciendo una estabilidad tanto a arrendatarios como a propietarios, satisfaciendo los requerimientos y necesidades de nuestros clientes. Contamos con alianzas de reconocidas empresas aseguradoras como; El Libertador del Grupo Bolívar y Seguros Mundial.",
+		"parrafo" => "Nuestro propósito será encontrar el perfil adecuado de arrendatario para su propiedad, proteger sus intereses y ofreciendo una estabilidad tanto a arrendatarios como a propietarios, satisfaciendo los requerimientos y necesidades de nuestros clientes. Contamos con alianzas de reconocidas empresas aseguradoras como; El Libertador del Grupo Bolívar y Seguros Mundial.",
 	],
 	"ventas" => [
 		"titulo" => "<strong>VENTA DE INMUEBLES</strong>",
@@ -213,7 +213,7 @@ $texto_servicios = [
 		"titulo" => "<strong>PUBLICIDAD</strong>",
 		'imagen' => 'img/publicidad.jpg',
 		'alt' => 'Imagen',
-		"parrafo" => "Tenemos alianza con los mejores portales de publicidad de finca raíz, como: Finca Raiz, Ciencuadras, Olx, Mercado libre; donde se utilizan excelentes estrategias publicitarias, soportado con avisos de ventana de diferentes tamaños o pendones según cada caso y necesidad, para optimizar resultados favorables en el menor tiempo posible. Tenemos como premisa arrendar lo más pronto posible su inmueble, por lo tanto, este mostrará de lunes a domingo.",
+		"parrafo" => "Tenemos alianza con los mejores portales de publicidad de finca raíz, como: Finca Raiz, Ciencuadras, Olx, Mercado libre; donde se utilizan excelentes estrategias publicitarias, soportado con avisos de ventana de diferentes tamaños o pendones según cada caso y necesidad, para optimizar resultados favorables en el menor tiempo posible. Tenemos como premisa arrendar lo más pronto posible su inmueble, por lo tanto, este se mostrará de lunes a domingo.",
 	],
 	"pagos" => [
 		"titulo" => "<strong>PAGO DE ADMINISTRACIONES</strong>",

@@ -62,6 +62,9 @@ $page = 'Quienes' ?>
     </section>
 
     <!-- fin de contador -->
+    <div class="col-12 position-absolute text-center cont_btn d-flex justify-content-center d-flex align-items-center" style="z-index: 100">
+      <a type="button" data-toggle="modal" data-target="#consigna" class="btn color_btn_consig col-2">Publicar</a>
+    </div>
 
     <div id='parallax' class="img_static ">
       <section>
@@ -72,7 +75,6 @@ $page = 'Quienes' ?>
         </figure>
       </section>
     </div>
-
     <div class="container wow fadeInUpBig" style="margin-bottom: 15px;">
       <h2 class="main-title contenido_completo text-center p-4"> Misión y Visión</h2>
       <div class="col-12">
