@@ -41,8 +41,8 @@ $datos_contacto = [
 		"icono" => "fas fa-map-marker-alt",
 	],
 	"telefono_fijo" => [
-		"link"=> "+570312324319",
-		"imprimir" => "PBX +57(1) 232 4319",
+		"link"=> "6012324319",
+		"imprimir" => "PBX (601) 232 4319",
 		"icono" => "fas fa-phone-alt",
 	],
 	"celular" => [
@@ -201,7 +201,7 @@ $texto_servicios = [
 		"titulo" => "<strong>ARRENDAMIENTOS DE INMUEBLES</strong>",
 		'imagen' => 'img/arrendamientos.jpg',
 		'alt' => 'Imagen',
-		"parrafo" => "Nuestro propósito será encontrar el perfil adecuado de arrendatario para su propiedad, proteger sus intereses y ofreciendo una estabilidad tanto a arrendatarios como a propietarios, satisfaciendo los requerimientos y necesidades de nuestros clientes. Contamos con alianzas de reconocidas empresas aseguradoras como; El Libertador del Grupo Bolívar y Seguros Mundial.",
+		"parrafo" => "Nuestro propósito será encontrar el perfil adecuado de arrendatario para su propiedad, protegiendo sus intereses y ofreciendo una estabilidad tanto a arrendatarios como a propietarios, satisfaciendo los requerimientos y necesidades de nuestros clientes. Contamos con alianzas de reconocidas empresas aseguradoras como; El Libertador del Grupo Bolívar y Seguros Mundial.",
 	],
 	"ventas" => [
 		"titulo" => "<strong>VENTA DE INMUEBLES</strong>",
